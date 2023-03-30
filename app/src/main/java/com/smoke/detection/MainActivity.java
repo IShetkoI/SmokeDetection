@@ -77,35 +77,6 @@ public class MainActivity extends AppCompatActivity {
                 navigate(DevicesFragment.newInstance());
             }
         });
-
-        binding.logs.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                try {
-                    Process process = Runtime.getRuntime().exec("logcat -d");
-                    BufferedReader bufferedReader = new BufferedReader(
-                            new InputStreamReader(process.getInputStream()));
-
-                    StringBuilder log = new StringBuilder();
-                    String line;
-                    boolean f = false;
-                    while ((line = bufferedReader.readLine()) != null) {
-                        if (line.contains("isLeEnabled(): ON") || f) {
-                            f = true;
-                            try {
-                                log.append(line.substring(31));
-                            } catch (StringIndexOutOfBoundsException e) {
-                                log.append(line);
-                            }
-
-                            log.append("\n");
-                        }
-                        TextView tv = (TextView) findViewById(R.id.textView1);
-                        tv.setText(log.toString());
-                    }
-                } catch (IOException e) {
-                }
-            }
-        });
     }
 
     public void showNotification(String title, String message) {
