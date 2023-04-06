@@ -28,8 +28,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-import java.util.Timer;
-import java.util.TimerTask;
 import java.util.UUID;
 
 public class ControlFragment extends BaseFragment<FragmentControlBinding> {
@@ -173,9 +171,9 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                         ((MainActivity) getActivity()).showNotification(title, description);
                         break;
                     case 3:
-                        setPicture(R.drawable.bark);
-                        title = getString(R.string.title_dog_barking);
-                        description = getString(R.string.description_dog_barking);
+                        setPicture(R.drawable.noise);
+                        title = getString(R.string.title_noise);
+                        description = getString(R.string.description_noise);
                         ((MainActivity) getActivity()).showNotification(title, description);
                         break;
                 }
