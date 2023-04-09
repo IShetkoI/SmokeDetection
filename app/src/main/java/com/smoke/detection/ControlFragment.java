@@ -2,6 +2,7 @@ package com.smoke.detection;
 
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
+import android.bluetooth.le.ScanResult;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -10,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,9 +24,12 @@ import com.welie.blessed.BluetoothPeripheralCallback;
 import com.welie.blessed.GattStatus;
 import com.welie.blessed.HciStatus;
 
+import org.apache.commons.collections4.Bag;
+import org.apache.commons.collections4.bag.HashBag;
 import org.jetbrains.annotations.NotNull;
 
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
@@ -36,6 +41,10 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
     private Boolean isConnected = false;
     private Boolean onResume = false;
     public String address = null;
+
+    private List<Byte> arrayStatus = new ArrayList<>();
+
+    private Bag<Byte> bag = new HashBag<>();
 
     @Override
     FragmentControlBinding initViewBinding(LayoutInflater inflater, ViewGroup container) {
@@ -154,28 +163,36 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
 
                 String title, description;
 
-                switch (value[0]) {
-                    case 0:
-                        setPicture(R.drawable.peace);
-                        break;
-                    case 1:
-                        setPicture(R.drawable.smoke);
-                        title = getString(R.string.title_indoor_smoke);
-                        description = getString(R.string.description_indoor_smoke);
-                        ((MainActivity) getActivity()).showNotification(title, description);
-                        break;
-                    case 2:
-                        setPicture(R.drawable.crying);
-                        title = getString(R.string.title_kid_crying);
-                        description = getString(R.string.description_kid_crying);
-                        ((MainActivity) getActivity()).showNotification(title, description);
-                        break;
-                    case 3:
-                        setPicture(R.drawable.noise);
-                        title = getString(R.string.title_noise);
-                        description = getString(R.string.description_noise);
-                        ((MainActivity) getActivity()).showNotification(title, description);
-                        break;
+                arrayStatus.add(value[0]);
+                bag.add(value[0], 1);
+
+                if(bag.getCount(1) >= 6){
+                    setPicture(R.drawable.smoke);
+                    title = getString(R.string.title_indoor_smoke);
+                    description = getString(R.string.description_indoor_smoke);
+                    ((MainActivity) getActivity()).showNotification(title, description);
+                }
+                else if(bag.getCount(2)>=4){
+                    setPicture(R.drawable.crying);
+                    title = getString(R.string.title_kid_crying);
+                    description = getString(R.string.description_kid_crying);
+                    ((MainActivity) getActivity()).showNotification(title, description);
+                }
+                else if(bag.getCount(3) >= 4){
+                    setPicture(R.drawable.noise);
+                    title = getString(R.string.title_noise);
+                    description = getString(R.string.description_noise);
+                    ((MainActivity) getActivity()).showNotification(title, description);
+                }
+                else {
+                    setPicture(R.drawable.peace);
+                }
+
+                if(arrayStatus.size() == 10){
+                    TextView tv = requireActivity().findViewById(R.id.debug_text);
+                    tv.setText(bag.toString());
+                    bag.remove(arrayStatus.get(0), 1);
+                    arrayStatus.remove(0);
                 }
             }
         }
