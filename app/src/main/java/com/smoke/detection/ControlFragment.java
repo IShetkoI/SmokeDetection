@@ -189,8 +189,8 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                 }
 
                 if(arrayStatus.size() == 10){
-                    TextView tv = requireActivity().findViewById(R.id.debug_text);
-                    tv.setText(bag.toString());
+//                    TextView tv = requireActivity().findViewById(R.id.debug_text);
+//                    tv.setText(bag.toString());
                     bag.remove(arrayStatus.get(0), 1);
                     arrayStatus.remove(0);
                 }
