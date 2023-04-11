@@ -39,10 +39,8 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
     private static final String KEY_DEVICE_ADDRESS = "00:00:00:00:00:00";
     private Boolean isToDisconnected = false;
     private Boolean isConnected = false;
-    private Boolean onResume = false;
+    private Boolean onResume = true;
     public String address = null;
-
-    private List<Byte> arrayStatus = new ArrayList<>();
 
     private Bag<Byte> bag = new HashBag<>();
 
@@ -75,13 +73,11 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
     @Override
     public void onPause() {
         super.onPause();
-        onResume = false;
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        onResume = true;
     }
 
     private final BluetoothCentralManagerCallback bluetoothCentralManagerCallback = new BluetoothCentralManagerCallback() {
@@ -92,6 +88,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
             isConnected = true;
             ((MainActivity) requireActivity()).setIsConnected(true);
             isToDisconnected = false;
+
             MainActivity.setToDisconnect(false);
 
             getActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.blue));
@@ -137,6 +134,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
             if (status == GattStatus.SUCCESS) {
                 if(peripheral.isNotifying(characteristic)) {
                     Log.i("Notification", String.format("SUCCESS: Notify set to 'on' for %s", characteristic.getUuid()));
+                    setPicture(R.drawable.listen);
                 } else {
                     Log.i("Notification", String.format("SUCCESS: Notify set to 'off' for %s", characteristic.getUuid()));
                 }
@@ -155,7 +153,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                 isConnected = false;
                 ((MainActivity) requireActivity()).setIsConnected(false);
             }
-            if (isConnected) {
+            if (isConnected && onResume) {
                 String s = new String(value, StandardCharsets.UTF_8);
 
                 Log.e("value-string", value.toString());
@@ -163,36 +161,40 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
 
                 String title, description;
 
-                arrayStatus.add(value[0]);
                 bag.add(value[0], 1);
 
-                if(bag.getCount(1) >= 6){
-                    setPicture(R.drawable.smoke);
-                    title = getString(R.string.title_indoor_smoke);
-                    description = getString(R.string.description_indoor_smoke);
-                    ((MainActivity) getActivity()).showNotification(title, description);
-                }
-                else if(bag.getCount(2)>=4){
-                    setPicture(R.drawable.crying);
-                    title = getString(R.string.title_kid_crying);
-                    description = getString(R.string.description_kid_crying);
-                    ((MainActivity) getActivity()).showNotification(title, description);
-                }
-                else if(bag.getCount(3) >= 4){
-                    setPicture(R.drawable.noise);
-                    title = getString(R.string.title_noise);
-                    description = getString(R.string.description_noise);
-                    ((MainActivity) getActivity()).showNotification(title, description);
-                }
-                else {
-                    setPicture(R.drawable.peace);
-                }
-
-                if(arrayStatus.size() == 10){
-//                    TextView tv = requireActivity().findViewById(R.id.debug_text);
-//                    tv.setText(bag.toString());
-                    bag.remove(arrayStatus.get(0), 1);
-                    arrayStatus.remove(0);
+                if(bag.size() == 10){
+                    if(bag.getCount(1) >= 6){
+                        setPicture(R.drawable.smoke);
+                        title = getString(R.string.title_indoor_smoke);
+                        description = getString(R.string.description_indoor_smoke);
+                        ((MainActivity) getActivity()).showNotification(title, description);
+                    }
+                    else if(bag.getCount(2)>=3){
+                        setPicture(R.drawable.crying);
+                        title = getString(R.string.title_kid_crying);
+                        description = getString(R.string.description_kid_crying);
+                        ((MainActivity) getActivity()).showNotification(title, description);
+                    }
+                    else if(bag.getCount(3) >= 4){
+                        setPicture(R.drawable.noise);
+                        title = getString(R.string.title_noise);
+                        description = getString(R.string.description_noise);
+                        ((MainActivity) getActivity()).showNotification(title, description);
+                    }
+                    else {
+                        setPicture(R.drawable.peace);
+                    }
+                    bag.clear();
+                    onResume = false;
+                    Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            setPicture(R.drawable.listen);
+                            onResume = true;
+                        }
+                    }, 2000);
                 }
             }
         }
