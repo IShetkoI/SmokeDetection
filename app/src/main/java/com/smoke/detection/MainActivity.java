@@ -64,16 +64,12 @@ public class MainActivity extends AppCompatActivity {
 
         binding.bHome.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                binding.bHome.setImageResource(R.drawable.home_red);
-                binding.bSearch.setImageResource(R.drawable.search_accent);
                 navigate(ControlFragment.newInstance("00:00:00:00:00:00"));
             }
         });
 
         binding.bSearch.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                binding.bHome.setImageResource(R.drawable.home_accent);
-                binding.bSearch.setImageResource(R.drawable.search_red);
                 navigate(DevicesFragment.newInstance());
             }
         });

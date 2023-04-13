@@ -3,6 +3,8 @@ package com.smoke.detection;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
 import android.bluetooth.le.ScanResult;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -50,6 +52,8 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
 
     private Bag<Byte> bag = new HashBag<>();
 
+    private SharedPreferences.Editor pref = (SharedPreferences.Editor) requireActivity().getSharedPreferences("MyPref", Context.MODE_PRIVATE);
+
     @Override
     FragmentControlBinding initViewBinding(LayoutInflater inflater, ViewGroup container) {
         return FragmentControlBinding.inflate(inflater, container, false);
@@ -75,12 +79,20 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
 
             centralManager.connectPeripheral(peripheral, peripheralCallback);
         }
-        ImageView breath = requireActivity().findViewById(R.id.pulse);
-        Animation anim = AnimationUtils.loadAnimation(getActivity(), R.anim.breath);
-        breath.startAnimation(anim);
-        ImageView iv = requireActivity().findViewById(R.id.loading);
-        anim = AnimationUtils.loadAnimation(getActivity(), R.anim.rotate);
-        iv.startAnimation(anim);
+        ImageView iv = requireActivity().findViewById(R.id.bHome);
+        iv.setImageResource(R.drawable.home_orange);
+        iv = requireActivity().findViewById(R.id.bgHome);
+        iv.setImageResource(R.drawable.concave_button);
+        iv = requireActivity().findViewById(R.id.bSearch);
+        iv.setImageResource(R.drawable.search_accent);
+        iv = requireActivity().findViewById(R.id.bgSearch);
+        iv.setImageResource(R.drawable.convex_button);
+//        ImageView breath = requireActivity().findViewById(R.id.pulse);
+//        Animation anim = AnimationUtils.loadAnimation(getActivity(), R.anim.breath);
+//        breath.startAnimation(anim);
+//        ImageView iv = requireActivity().findViewById(R.id.loading);
+//        anim = AnimationUtils.loadAnimation(getActivity(), R.anim.rotate);
+//        iv.startAnimation(anim);
     }
 
     @Override
@@ -178,26 +190,28 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                 bag.add(value[0], 1);
 
                 if(bag.getCount(1) >= 6){
-                    setPicture(R.drawable.smoke);
+//                    setPicture(R.drawable.smoke);
                     title = getString(R.string.title_indoor_smoke);
                     description = getString(R.string.description_indoor_smoke);
                     ((MainActivity) getActivity()).showNotification(title, description);
                 }
                 else if(bag.getCount(2)>=4){
-                    setPicture(R.drawable.crying);
+//                    setPicture(R.drawable.crying);
                     title = getString(R.string.title_kid_crying);
                     description = getString(R.string.description_kid_crying);
                     ((MainActivity) getActivity()).showNotification(title, description);
                 }
                 else if(bag.getCount(3) >= 4){
-                    setPicture(R.drawable.noise);
+//                    setPicture(R.drawable.noise);
                     title = getString(R.string.title_noise);
                     description = getString(R.string.description_noise);
                     ((MainActivity) getActivity()).showNotification(title, description);
                 }
                 else {
-                    setPicture(R.drawable.peace);
+//                    setPicture(R.drawable.peace);
                 }
+
+
 
                 if(arrayStatus.size() == 10){
 //                    TextView tv = requireActivity().findViewById(R.id.debug_text);

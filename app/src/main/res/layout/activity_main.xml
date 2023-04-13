@@ -33,7 +33,7 @@
         android:padding="30dp"
         android:scaleType="fitCenter"
 
-        android:src="@drawable/home_red"
+        android:src="@drawable/home_orange"
         app:neumorph_inset="12dp"
         app:neumorph_shadowColorDark="@color/dark_shadow"
         app:neumorph_shadowColorLight="@color/light_shadow"

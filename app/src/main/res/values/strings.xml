@@ -11,4 +11,5 @@
     <string name="description_kid_crying">Your baby needs attention</string>
     <string name="description_noise">There is extraneous noise in your room</string>
     <string name="disconnect">Disconnect</string>
+    <string name="last_status">Last status</string>
 </resources>
