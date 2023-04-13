@@ -95,10 +95,10 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
 
-            android:src="@drawable/logo"
+            android:src="@drawable/ecozy_logo"
             android:scaleType="fitCenter"
-            android:padding="23dp"
-
+            android:padding="25dp"
+            app:neumorph_shapeAppearance="@style/ShapeAppearance"
             style="@style/Widget.Neumorph.ImageView"
             app:neumorph_shadowColorDark="@color/dark_shadow"
             app:neumorph_shadowColorLight="@color/light_shadow"
@@ -122,7 +122,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
 
-                android:text="@string/smoke_detection"
+                android:text="@string/eCozy"
+                android:textColor="@color/accent"
                 android:textSize="@dimen/textFontSize"
                 android:gravity="center"
                 android:padding="10dp"

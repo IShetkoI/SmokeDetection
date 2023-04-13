@@ -6,13 +6,70 @@
     android:layout_height="match_parent"
     android:background="@color/ecozy_main">
 
-    <ImageView
-        android:id="@+id/ivAlert"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:neumorph_shadowColorDark="@color/dark_shadow"
+        app:neumorph_shadowColorLight="@color/light_shadow"
+        app:neumorph_shadowElevation="6dp" />
 
-        android:src="@drawable/peace"
-        android:scaleType="fitCenter"
-        />
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neomorph_background_color="@color/ecozy_main"
+        app:neomorph_elevation="6dp"
+        app:neomorph_highlight_color="@color/light_shadow"
+        app:neomorph_shadow_color="@color/dark_shadow"
+        app:neomorph_shadow_type="inner"
+
+        app:neomorph_view_type="circular">
+
+        <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+            android:layout_width="325dp"
+            android:layout_height="325dp"
+            android:layout_gravity="center"
+            app:neomorph_background_color="@color/ecozy_main"
+            app:neomorph_elevation="6dp"
+            app:neomorph_highlight_color="@color/light_shadow"
+            app:neomorph_shadow_color="@color/dark_shadow"
+            app:neomorph_shadow_type="outer"
+            app:neomorph_view_type="circular"/>
+
+        <ImageView
+            android:id="@+id/loading"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:layout_width="307dp"
+            android:layout_height="307dp"
+            android:src="@drawable/loading" />
+
+        <ImageView
+            android:id="@+id/pulse"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:layout_width="310dp"
+            android:layout_height="310dp"
+            android:src="@drawable/pulse" />
+
+        <ImageView
+            android:id="@+id/ellipse"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:layout_width="302dp"
+            android:layout_height="302dp"
+            android:src="@drawable/ellipse" />
+
+
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

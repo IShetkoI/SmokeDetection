@@ -10,6 +10,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -34,6 +36,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
+
+import pl.bclogic.pulsator4droid.library.PulsatorLayout;
 
 public class ControlFragment extends BaseFragment<FragmentControlBinding> {
     private static final String KEY_DEVICE_ADDRESS = "00:00:00:00:00:00";
@@ -68,8 +72,15 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
         else if (!Objects.equals(address, "00:00:00:00:00:00") && !isConnected) {
             BluetoothPeripheral peripheral = centralManager.getPeripheral(address);
             getActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.accent));
+
             centralManager.connectPeripheral(peripheral, peripheralCallback);
         }
+        ImageView breath = requireActivity().findViewById(R.id.pulse);
+        Animation anim = AnimationUtils.loadAnimation(getActivity(), R.anim.breath);
+        breath.startAnimation(anim);
+        ImageView iv = requireActivity().findViewById(R.id.loading);
+        anim = AnimationUtils.loadAnimation(getActivity(), R.anim.rotate);
+        iv.startAnimation(anim);
     }
 
     @Override
@@ -202,8 +213,8 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
 
     public void setPicture(int drawable) {
         try {
-            ImageView iv = requireActivity().findViewById(R.id.ivAlert);
-            iv.setImageResource(drawable);
+//            ImageView iv = requireActivity().findViewById(R.id.ivAlert);
+//            iv.setImageResource(drawable);
         }
         catch (Exception ignored) {
         }
