@@ -14,4 +14,10 @@
     <color name="red">#F16C6C</color>
     <color name="blue">#6C98F1</color>
     <color name="yellow">#F1BC6C</color>
+    <color name="ecozy_main">#E0E0E0</color>
+    <color name="ecozy_blue">#4fb8db</color>
+    <color name="ecozy_orange">#ff732d</color>
+    <color name="ecozy_text">#9cadba</color>
+    <color name="light_shadow">#ffffff</color>
+    <color name="dark_shadow">#bebebe</color>
 </resources>
