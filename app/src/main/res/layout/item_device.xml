@@ -54,7 +54,7 @@
         android:textColor="@color/ecozy_orange"
         android:textSize="10sp"
         android:visibility="gone"
-        app:neumorph_backgroundColor="@color/main"
+        app:neumorph_backgroundColor="@color/ecozy_main"
         app:neumorph_shadowColorDark="@color/dark_shadow"
         app:neumorph_shadowColorLight="@color/light_shadow"
         app:neumorph_shapeType="flat" />
