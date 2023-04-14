@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">Smoke Detection</string>
-    <string name="smoke_detection"><font color='#707585'>Smoke</font> <font color='#F16C6C'>Detection</font></string>
+    <string name="eCozy"><font color='#707585'>e</font><font color='#ff732d'>Cozy</font></string>
     <string name="null_string">00:00:00:00:00:00</string>
     <string name="title_indoor_smoke">Indoor smoke</string>
     <string name="title_dog_barking">Dog barking</string>
@@ -12,4 +11,6 @@
     <string name="description_noise">There is extraneous noise in your room</string>
     <string name="disconnect">Disconnect</string>
     <string name="last_status">Last status</string>
+    <string name="getting_notifications">Getting\nnotifications</string>
+    <string name="updating_status">Updating\nstatus</string>
 </resources>

@@ -47,11 +47,7 @@ public class DevicesAdapter extends RecyclerView.Adapter<DevicesAdapter.DevicesV
         ScanResult scanResult = MainActivity.getSavedDevice();
         holder.bind(items.get(position), scanResult);
 
-        holder.binding.bDisconnect.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                MainActivity.setToDisconnect(true);
-            }
-        });
+        holder.binding.bDisconnect.setOnClickListener(v -> MainActivity.setToDisconnect(true));
     }
 
     @Override
@@ -68,6 +64,7 @@ public class DevicesAdapter extends RecyclerView.Adapter<DevicesAdapter.DevicesV
             this.binding = binding;
         }
 
+        @SuppressLint("SetTextI18n")
         public void bind(ScanResult scanResult, ScanResult savedDevice) {
             itemView.setOnClickListener(view -> callback.onItemClick(scanResult));
             binding.textName.setText(scanResult.getDevice().getName());

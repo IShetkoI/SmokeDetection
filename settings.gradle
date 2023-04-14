@@ -16,5 +16,5 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "Smoke Detection"
+rootProject.name = "eCozy"
 include ':app'

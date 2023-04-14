@@ -1,10 +1,11 @@
 package com.smoke.detection;
 
+import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
-import android.content.Context;
+import android.bluetooth.le.ScanResult;
 import android.content.SharedPreferences;
-import android.graphics.Color;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -19,6 +20,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
 
 import com.smoke.detection.databinding.FragmentControlBinding;
 import com.welie.blessed.BluetoothCentralManager;
@@ -32,7 +34,6 @@ import org.apache.commons.collections4.Bag;
 import org.apache.commons.collections4.bag.HashBag;
 import org.jetbrains.annotations.NotNull;
 
-import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -50,7 +51,6 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
     private final Bag<Byte> bag = new HashBag<>();
 
 
-
     @Override
     FragmentControlBinding initViewBinding(LayoutInflater inflater, ViewGroup container) {
         return FragmentControlBinding.inflate(inflater, container, false);
@@ -64,13 +64,13 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
         centralManager = new BluetoothCentralManager(requireContext(), bluetoothCentralManagerCallback, new Handler(Looper.getMainLooper()));
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         if (Objects.equals(address, "Disconnection")) {
             isToDisconnected = true;
             MainActivity.setToDisconnect(true);
-        }
-        else if (!Objects.equals(address, "00:00:00:00:00:00") && !isConnected) {
+        } else if (!Objects.equals(address, "00:00:00:00:00:00") && !isConnected) {
             BluetoothPeripheral peripheral = centralManager.getPeripheral(address);
             requireActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.ecozy_main));
 
@@ -90,14 +90,23 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
         String status = prefs.getString("status", "");
         TextView tv = requireActivity().findViewById(R.id.status);
         switch (status) {
-            case "Indoor smoke": tv.setText(status); tv.setTextColor(requireContext().getColor(R.color.ecozy_orange)); break;
+            case "Indoor smoke":
+                tv.setText(status);
+                tv.setTextColor(requireContext().getColor(R.color.ecozy_orange));
+                ((TextView) requireActivity().findViewById(R.id.last_status)).setText("Last status");
+                break;
             case "Dog barking":
             case "Background noise":
-            case "The baby is crying": tv.setText(status); tv.setTextColor(requireContext().getColor(R.color.ecozy_blue)); break;
-            default: tv.setText(status); ((TextView)requireActivity().findViewById(R.id.last_status)).setText(""); break;
+            case "The baby is crying":
+                tv.setText(status);
+                tv.setTextColor(requireContext().getColor(R.color.ecozy_blue));
+                ((TextView) requireActivity().findViewById(R.id.last_status)).setText("Last status");
+                break;
+            default:
+                tv.setText(status);
+                ((TextView) requireActivity().findViewById(R.id.last_status)).setText("");
+                break;
         }
-
-
 
         String date = prefs.getString("date", "");
         tv = requireActivity().findViewById(R.id.date);
@@ -148,6 +157,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
             isToDisconnected = false;
             MainActivity.setToDisconnect(false);
             requireActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.ecozy_main));
+            setAnimation(3);
         }
     };
 
@@ -169,64 +179,50 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
         @Override
         public void onNotificationStateUpdate(@NotNull BluetoothPeripheral peripheral, @NotNull BluetoothGattCharacteristic characteristic, @NotNull GattStatus status) {
             if (status == GattStatus.SUCCESS) {
-                if(peripheral.isNotifying(characteristic)) {
+                if (peripheral.isNotifying(characteristic)) {
                     Log.i("Notification", String.format("SUCCESS: Notify set to 'on' for %s", characteristic.getUuid()));
-                    ImageView iv = requireActivity().findViewById(R.id.loading);
-                    Animation anim = AnimationUtils.loadAnimation(getActivity(), R.anim.rotate);
-                    iv.startAnimation(anim);
-                    iv.setVisibility(View.VISIBLE);
+                    setAnimation(1);
                 } else {
                     Log.i("Notification", String.format("SUCCESS: Notify set to 'off' for %s", characteristic.getUuid()));
-                    ImageView iv = requireActivity().findViewById(R.id.loading);
-                    iv.clearAnimation();
-                    iv.setVisibility(View.INVISIBLE);
+                    setAnimation(3);
                 }
             } else {
                 Log.e("Notification", String.format("ERROR: Changing notification state failed for %s", characteristic.getUuid()));
+                setAnimation(3);
             }
         }
 
 
+        @SuppressLint("SimpleDateFormat")
         @Override
-        public void onCharacteristicUpdate(@NotNull BluetoothPeripheral peripheral, @NotNull byte[] value, @NotNull BluetoothGattCharacteristic characteristic, @NotNull GattStatus status) {
+        public void onCharacteristicUpdate(@NotNull BluetoothPeripheral peripheral, byte @NotNull [] value, @NotNull BluetoothGattCharacteristic characteristic, @NotNull GattStatus status) {
             isToDisconnected = MainActivity.getToDisconnect();
             if (isToDisconnected) {
                 readCharacteristic(peripheral, false);
                 centralManager.cancelConnection(peripheral);
                 isConnected = false;
                 ((MainActivity) requireActivity()).setIsConnected(false);
+                setAnimation(3);
             }
             if (isConnected && onResume) {
-                String s = new String(value, StandardCharsets.UTF_8);
-
                 bag.add(value[0], 1);
 
-                if(bag.size() == 10){
-                    ImageView iv = requireActivity().findViewById(R.id.loading);
-                    iv.clearAnimation();
-                    iv.setVisibility(View.INVISIBLE);
-
-                    iv = requireActivity().findViewById(R.id.pulse);
-                    Animation anim = AnimationUtils.loadAnimation(getActivity(), R.anim.pulse);
-                    iv.startAnimation(anim);
-                    iv.setVisibility(View.VISIBLE);
+                if (bag.size() == 10) {
+                    setAnimation(2);
 
                     String last_status;
-                    Integer color;
+                    int color;
 
-                    if(bag.getCount(1) >= 6){
+                    if (bag.getCount((byte)1) >= 6) {
                         last_status = "Indoor smoke";
                         color = requireContext().getColor(R.color.ecozy_orange);
-                    }
-                    else if(bag.getCount(2)>=3){
+                    } else if (bag.getCount((byte)2) >= 3) {
                         last_status = "The baby is crying";
                         color = requireContext().getColor(R.color.ecozy_blue);
-                    }
-                    else if(bag.getCount(3) >= 4){
+                    } else if (bag.getCount((byte)3) >= 4) {
                         last_status = "Background noise";
                         color = requireContext().getColor(R.color.ecozy_blue);
-                    }
-                    else {
+                    } else {
                         last_status = "Peace";
                         color = requireContext().getColor(R.color.ecozy_blue);
                     }
@@ -258,20 +254,10 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                     onResume = false;
 
                     Handler handler = new Handler();
-                    handler.postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            ImageView iv = requireActivity().findViewById(R.id.pulse);
-                            iv.clearAnimation();
-                            iv.setVisibility(View.INVISIBLE);
+                    handler.postDelayed(() -> {
+                        setAnimation(1);
 
-                            iv = requireActivity().findViewById(R.id.loading);
-                            Animation anim = AnimationUtils.loadAnimation(getActivity(), R.anim.rotate);
-                            iv.startAnimation(anim);
-                            iv.setVisibility(View.VISIBLE);
-
-                            onResume = true;
-                        }
+                        onResume = true;
                     }, 2000);
                 }
             }
@@ -281,19 +267,79 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
     private BluetoothCentralManager centralManager = null;
 
     public void readCharacteristic(@NotNull BluetoothPeripheral peripheral, Boolean flag) {
-        UUID serviceUUID = UUID.fromString( "e9ea0001-e19b-482d-9293-c7907585fc48");
+        UUID serviceUUID = UUID.fromString("e9ea0001-e19b-482d-9293-c7907585fc48");
         UUID characteristicUUID = UUID.fromString("e9ea0002-e19b-482d-9293-c7907585fc48");
 
         BluetoothGattCharacteristic characteristic = peripheral.getCharacteristic(serviceUUID, characteristicUUID);
 
         if (characteristic != null) {
             peripheral.setNotify(characteristic, flag);
-        }
-        else {
-            getActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.ecozy_orange));
+        } else {
+            requireActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.ecozy_orange));
         }
     }
 
+    public void setAnimation(Integer flag) {
+        ImageView iv;
+        Animation anim;
+        TextView tv;
+
+        if (ActivityCompat.checkSelfPermission(requireContext(), android.Manifest.permission.BLUETOOTH_CONNECT) != PackageManager.PERMISSION_GRANTED) {
+            return;
+        }
+
+        ScanResult result = MainActivity.getSavedDevice();
+
+        if(result != null){
+            String device = MainActivity.getSavedDevice().getDevice().getName();
+            tv = requireActivity().findViewById(R.id.nameDevice);
+            tv.setText(device);
+        }
+
+        switch (flag) {
+            case 1:
+                iv = requireActivity().findViewById(R.id.pulse);
+                iv.clearAnimation();
+                iv.setVisibility(View.INVISIBLE);
+                iv = requireActivity().findViewById(R.id.ellipse);
+                iv.setVisibility(View.INVISIBLE);
+
+                iv = requireActivity().findViewById(R.id.loading);
+                anim = AnimationUtils.loadAnimation(getActivity(), R.anim.rotate);
+                iv.startAnimation(anim);
+                iv.setVisibility(View.VISIBLE);
+
+                tv = requireActivity().findViewById(R.id.action);
+                tv.setText(R.string.getting_notifications);
+                break;
+            case 2:
+                iv = requireActivity().findViewById(R.id.loading);
+                iv.clearAnimation();
+                iv.setVisibility(View.INVISIBLE);
+
+                iv = requireActivity().findViewById(R.id.pulse);
+                anim = AnimationUtils.loadAnimation(getActivity(), R.anim.pulse);
+                iv.startAnimation(anim);
+                iv.setVisibility(View.VISIBLE);
+                iv = requireActivity().findViewById(R.id.ellipse);
+                iv.setVisibility(View.VISIBLE);
+
+                tv = requireActivity().findViewById(R.id.action);
+                tv.setText(R.string.updating_status);
+                break;
+            case 3:
+                iv = requireActivity().findViewById(R.id.loading);
+                iv.clearAnimation();
+                iv.setVisibility(View.INVISIBLE);
+
+                iv = requireActivity().findViewById(R.id.pulse);
+                iv.clearAnimation();
+                iv.setVisibility(View.INVISIBLE);
+                iv = requireActivity().findViewById(R.id.ellipse);
+                iv.setVisibility(View.INVISIBLE);
+        }
+
+    }
 
     public static ControlFragment newInstance(String address) {
         Bundle args = new Bundle();
