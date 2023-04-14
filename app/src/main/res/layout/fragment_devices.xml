@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main"
+    android:background="@color/ecozy_main"
     >
 
     <soup.neumorphism.NeumorphCardView
@@ -13,8 +13,8 @@
 
         style="@style/Widget.Neumorph.CardView"
         app:neumorph_shapeType="basin"
-        app:neumorph_shadowColorDark="@color/shadow_dark"
-        app:neumorph_shadowColorLight="@color/shadow_light"
+        app:neumorph_shadowColorDark="@color/dark_shadow"
+        app:neumorph_shadowColorLight="@color/light_shadow"
         >
 
         <RelativeLayout
@@ -55,9 +55,8 @@
                 android:padding="23dp"
 
                 style="@style/Widget.Neumorph.ImageButton"
-                app:neumorph_shadowColorDark="@color/shadow_dark"
-                app:neumorph_shadowColorLight="@color/shadow_light"
-                app:neumorph_backgroundColor="@color/main"
+                app:neumorph_shadowColorDark="@color/dark_shadow"
+                app:neumorph_shadowColorLight="@color/light_shadow"
                 app:neumorph_shapeType="flat" />
         </RelativeLayout>
 

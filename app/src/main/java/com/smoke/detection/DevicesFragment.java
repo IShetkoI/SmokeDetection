@@ -1,6 +1,7 @@
 package com.smoke.detection;
 
 import android.bluetooth.le.ScanResult;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -8,9 +9,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -66,8 +69,10 @@ public class DevicesFragment extends BaseFragment<FragmentDevicesBinding> implem
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        binding.rvDevicesRecycler.addItemDecoration(new DividerItemDecoration(requireContext(), RecyclerView.VERTICAL));
+        DividerItemDecoration horizontalDecoration = new DividerItemDecoration(requireContext(), DividerItemDecoration.VERTICAL);
+        Drawable horizontalDivider = ContextCompat.getDrawable(requireContext(), R.drawable.divider);
+        horizontalDecoration.setDrawable(horizontalDivider);
+        binding.rvDevicesRecycler.addItemDecoration(horizontalDecoration);
         binding.rvDevicesRecycler.setAdapter(devicesAdapter);
         binding.rvDevicesRecycler.setLayoutManager(new LinearLayoutManager(requireContext()));
 
@@ -83,6 +88,15 @@ public class DevicesFragment extends BaseFragment<FragmentDevicesBinding> implem
                 }
             });
         }
+
+        ImageView iv = requireActivity().findViewById(R.id.bHome);
+        iv.setImageResource(R.drawable.home_accent);
+        iv = requireActivity().findViewById(R.id.bgHome);
+        iv.setImageResource(R.drawable.convex_button);
+        iv = requireActivity().findViewById(R.id.bSearch);
+        iv.setImageResource(R.drawable.search_orange);
+        iv = requireActivity().findViewById(R.id.bgSearch);
+        iv.setImageResource(R.drawable.concave_button);
     }
 
     public void scanDevices() {
@@ -164,10 +178,14 @@ public class DevicesFragment extends BaseFragment<FragmentDevicesBinding> implem
     }
 
     private void navigateToControlScreen(String address) {
-        ImageButton imb = getActivity().findViewById(R.id.bHome);
-        imb.setImageResource(R.drawable.home_red);
-        imb = getActivity().findViewById(R.id.bSearch);
-        imb.setImageResource(R.drawable.search_accent);
+        ImageView iv = requireActivity().findViewById(R.id.bHome);
+        iv.setImageResource(R.drawable.home_orange);
+        iv = requireActivity().findViewById(R.id.bgHome);
+        iv.setImageResource(R.drawable.convex_button);
+        iv = requireActivity().findViewById(R.id.bSearch);
+        iv.setImageResource(R.drawable.search_accent);
+        iv = requireActivity().findViewById(R.id.bgSearch);
+        iv.setImageResource(R.drawable.convex_button);
 
         getParentFragmentManager()
                 .beginTransaction()

@@ -12,7 +12,7 @@
         android:textAppearance="?textAppearanceBody1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/red"/>
+        android:textColor="@color/ecozy_orange"/>
 
     <TextView
         android:id="@+id/textAddress"
@@ -51,12 +51,12 @@
         android:scaleX="1.2"
         android:scaleY="1.2"
         android:text="@string/disconnect"
-        android:textColor="@color/red"
+        android:textColor="@color/ecozy_orange"
         android:textSize="10sp"
         android:visibility="gone"
-        app:neumorph_backgroundColor="@color/main"
-        app:neumorph_shadowColorDark="@color/shadow_dark"
-        app:neumorph_shadowColorLight="@color/shadow_light"
+        app:neumorph_backgroundColor="@color/ecozy_main"
+        app:neumorph_shadowColorDark="@color/dark_shadow"
+        app:neumorph_shadowColorLight="@color/light_shadow"
         app:neumorph_shapeType="flat" />
 
 </RelativeLayout>
