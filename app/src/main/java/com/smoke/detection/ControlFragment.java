@@ -138,7 +138,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
             MainActivity.setToDisconnect(false);
 
             requireActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.ecozy_blue));
-
+            setAnimation(1);
             readCharacteristic(peripheral, true);
         }
 
@@ -181,7 +181,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
             if (status == GattStatus.SUCCESS) {
                 if (peripheral.isNotifying(characteristic)) {
                     Log.i("Notification", String.format("SUCCESS: Notify set to 'on' for %s", characteristic.getUuid()));
-                    setAnimation(1);
+
                 } else {
                     Log.i("Notification", String.format("SUCCESS: Notify set to 'off' for %s", characteristic.getUuid()));
                     setAnimation(3);
@@ -193,7 +193,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
         }
 
 
-        @SuppressLint("SimpleDateFormat")
+        @SuppressLint({"SimpleDateFormat", "SetTextI18n"})
         @Override
         public void onCharacteristicUpdate(@NotNull BluetoothPeripheral peripheral, byte @NotNull [] value, @NotNull BluetoothGattCharacteristic characteristic, @NotNull GattStatus status) {
             isToDisconnected = MainActivity.getToDisconnect();
@@ -205,11 +205,15 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                 setAnimation(3);
             }
             if (isConnected && onResume) {
+
+
                 bag.add(value[0], 1);
 
-                if (bag.size() == 10) {
-                    setAnimation(2);
+                TextView tv = requireActivity().findViewById(R.id.size);
+                tv.setText(Integer.toString(bag.size()));
 
+                if (bag.size() == 20) {
+                    setAnimation(2);
                     String last_status;
                     int color;
 
@@ -240,7 +244,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                     editor.putString("time", time);
                     editor.apply();
 
-                    TextView tv = requireActivity().findViewById(R.id.status);
+                    tv = requireActivity().findViewById(R.id.status);
                     tv.setText(last_status);
                     tv.setTextColor(color);
 
@@ -250,6 +254,8 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                     tv = requireActivity().findViewById(R.id.time);
                     tv.setText(time);
 
+                    ((TextView) requireActivity().findViewById(R.id.last_status)).setText("Last status");
+
                     bag.clear();
                     onResume = false;
 
@@ -258,7 +264,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                         setAnimation(1);
 
                         onResume = true;
-                    }, 2000);
+                    }, 4000);
                 }
             }
         }

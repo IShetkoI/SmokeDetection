@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     android:background="@color/ecozy_main">
 
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="32dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/neumorphCardView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <soup.neumorphism.NeumorphCardView
         android:id="@+id/neumorphCardView"
         android:layout_width="400dp"
