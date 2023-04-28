@@ -70,9 +70,9 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
 
-            android:src="@drawable/logo"
+            android:src="@drawable/ecozy_logo"
             android:scaleType="fitCenter"
-            android:padding="23dp"
+            android:padding="27dp"
 
             style="@style/Widget.Neumorph.ImageView"
             app:neumorph_shadowColorDark="@color/shadow_dark"
@@ -96,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
 
-                android:text="@string/smoke_detection"
+                android:text="@string/ecozy"
                 android:textSize="14sp"
                 android:gravity="center"
                 android:padding="10dp"
