@@ -188,7 +188,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                             setPicture(R.drawable.listen);
                             onResume = true;
                         }
-                    }, 2000);
+                    }, 4000);
                 }
             }
         }
