@@ -15,6 +15,7 @@ import android.app.PendingIntent;
 import android.bluetooth.le.ScanResult;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
     private static Boolean toDisconnect = false;
 
     private Boolean isConnected = false;
+    private SharedPreferences editor;
 
     private static final String[] ANDROID_12_BLE_PERMISSIONS = new String[]{
             android.Manifest.permission.BLUETOOTH,
@@ -61,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
 
         navigate(ControlFragment.newInstance("00:00:00:00:00:00"));
 
+        editor = getSharedPreferences("Storage", Context.MODE_PRIVATE);
+
         binding.bHome.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 binding.bHome.setImageResource(R.drawable.home_red);
@@ -76,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
                 navigate(DevicesFragment.newInstance());
             }
         });
+    }
+
+    public SharedPreferences getEditor() {
+        return editor;
     }
 
     public void setHashMap(HashMap<String, ScanResult> items) {

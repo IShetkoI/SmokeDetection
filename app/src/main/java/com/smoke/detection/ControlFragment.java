@@ -3,6 +3,7 @@ package com.smoke.detection;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
 import android.bluetooth.le.ScanResult;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -29,8 +30,11 @@ import org.apache.commons.collections4.bag.HashBag;
 import org.jetbrains.annotations.NotNull;
 
 import java.nio.charset.StandardCharsets;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
@@ -41,7 +45,6 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
     private Boolean isConnected = false;
     private Boolean onResume = true;
     public String address = null;
-
     private Bag<Byte> bag = new HashBag<>();
 
     @Override
@@ -68,6 +71,38 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
             getActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.accent));
             centralManager.connectPeripheral(peripheral, peripheralCallback);
         }
+
+        SharedPreferences prefs = ((MainActivity) requireActivity()).getEditor();
+
+        String status = prefs.getString("status", "");
+        TextView tv = requireActivity().findViewById(R.id.status);
+        switch (status) {
+            case "Indoor smoke":
+                tv.setText(status);
+                tv.setTextColor(requireContext().getColor(R.color.red));
+                ((TextView) requireActivity().findViewById(R.id.last_status)).setText("Last status");
+                break;
+            case "Dog barking":
+            case "Background noise":
+            case "The baby is crying":
+                tv.setText(status);
+                tv.setTextColor(requireContext().getColor(R.color.accent));
+                ((TextView) requireActivity().findViewById(R.id.last_status)).setText("Last status");
+                break;
+            default:
+                tv.setText(status);
+                ((TextView) requireActivity().findViewById(R.id.last_status)).setText("");
+                break;
+        }
+
+        String date = prefs.getString("date", "");
+        tv = requireActivity().findViewById(R.id.date);
+        tv.setText(date);
+
+        String time = prefs.getString("time", "");
+        tv = requireActivity().findViewById(R.id.time);
+        tv.setText(time);
+
     }
 
     @Override
@@ -91,7 +126,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
 
             MainActivity.setToDisconnect(false);
 
-            getActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.blue));
+            requireActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.blue));
 
             readCharacteristic(peripheral, true);
         }
@@ -99,7 +134,7 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
         @Override
         public void onConnectionFailed(@NotNull BluetoothPeripheral peripheral, @NotNull HciStatus status) {
             Log.e("onConnectionFailed", status.toString());
-            getActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.red));
+            requireActivity().findViewById(R.id.cvConnectionStatus).setBackgroundColor(requireContext().getColor(R.color.red));
         }
 
         @Override
@@ -154,31 +189,67 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                 ((MainActivity) requireActivity()).setIsConnected(false);
             }
             if (isConnected && onResume) {
-                String s = new String(value, StandardCharsets.UTF_8);
-
-                Log.e("value-string", value.toString());
-                Log.e("value-array", Arrays.toString(value));
-
-                String title, description;
 
                 bag.add(value[0], 1);
 
+                TextView tv;
+
                 if(bag.size() == 10){
+
+                    String last_status;
+                    int color;
+
                     if(bag.getCount((byte)1) >= 6){
+                        last_status = "Indoor smoke";
+                        color = requireContext().getColor(R.color.red);
                         setPicture(R.drawable.smoke);
                     }
                     else if(bag.getCount((byte)2)>=3){
+                        last_status = "The baby is crying";
+                        color = requireContext().getColor(R.color.accent);
                         setPicture(R.drawable.crying);
                     }
                     else if(bag.getCount((byte)4) >= 3){
+                        last_status = "Dog barking";
+                        color = requireContext().getColor(R.color.accent);
                         setPicture(R.drawable.bark);
                     }
                     else if(bag.getCount((byte)3) >= 4){
+                        last_status = "Background noise";
+                        color = requireContext().getColor(R.color.accent);
                         setPicture(R.drawable.noise);
                     }
                     else {
+                        last_status = "Peace";
+                        color = requireContext().getColor(R.color.accent);
                         setPicture(R.drawable.peace);
                     }
+
+                    Date today = Calendar.getInstance().getTime();
+                    SimpleDateFormat formatter = new SimpleDateFormat("MM.dd.yyyy");
+                    String date = formatter.format(today);
+                    formatter = new SimpleDateFormat("hh:mm:ss");
+                    String time = formatter.format(today);
+
+                    SharedPreferences.Editor editor = ((MainActivity) requireActivity()).getEditor().edit();
+
+                    editor.putString("status", last_status);
+                    editor.putString("date", date);
+                    editor.putString("time", time);
+                    editor.apply();
+
+                    tv = requireActivity().findViewById(R.id.status);
+                    tv.setText(last_status);
+                    tv.setTextColor(color);
+
+                    tv = requireActivity().findViewById(R.id.date);
+                    tv.setText(date);
+
+                    tv = requireActivity().findViewById(R.id.time);
+                    tv.setText(time);
+
+                    ((TextView) requireActivity().findViewById(R.id.last_status)).setText("Last status");
+
                     bag.clear();
                     onResume = false;
                     Handler handler = new Handler();
