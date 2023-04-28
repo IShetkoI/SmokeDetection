@@ -1,0 +1,15 @@
+Index: app/src/main/res/values-sw370dp/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"app_name\">Smoke Detection</string>\r\n    <string name=\"ecozy\"><font color='#707585'>e</font><font color='#F16C6C'>Cozy</font></string>\r\n    <string name=\"null_string\">00:00:00:00:00:00</string>\r\n    <string name=\"title_indoor_smoke\">Indoor smoke</string>\r\n    <string name=\"title_dog_barking\">Dog barking</string>\r\n    <string name=\"title_kid_crying\">The baby is crying</string>\r\n    <string name=\"title_noise\">Background noise</string>\r\n    <string name=\"disconnect\">Disconnect</string>\r\n</resources>
+===================================================================
+diff --git a/app/src/main/res/values-sw370dp/strings.xml b/app/src/main/res/values-sw370dp/strings.xml
+--- a/app/src/main/res/values-sw370dp/strings.xml	
++++ b/app/src/main/res/values-sw370dp/strings.xml	
+@@ -1,5 +1,5 @@
+ <resources>
+-    <string name="app_name">Smoke Detection</string>
++    <string name="app_name">eCozy</string>
+     <string name="ecozy"><font color='#707585'>e</font><font color='#F16C6C'>Cozy</font></string>
+     <string name="null_string">00:00:00:00:00:00</string>
+     <string name="title_indoor_smoke">Indoor smoke</string>

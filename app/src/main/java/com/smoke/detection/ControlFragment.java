@@ -77,14 +77,14 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
         String status = prefs.getString("status", "");
         TextView tv = requireActivity().findViewById(R.id.status);
         switch (status) {
-            case "Indoor smoke":
+            case "Smoke detector":
                 tv.setText(status);
                 tv.setTextColor(requireContext().getColor(R.color.red));
                 ((TextView) requireActivity().findViewById(R.id.last_status)).setText("Last status");
                 break;
-            case "Dog barking":
-            case "Background noise":
-            case "The baby is crying":
+            case "Dog bark":
+            case "Noise":
+            case "Baby cry":
                 tv.setText(status);
                 tv.setTextColor(requireContext().getColor(R.color.accent));
                 ((TextView) requireActivity().findViewById(R.id.last_status)).setText("Last status");
@@ -200,22 +200,22 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                     int color;
 
                     if(bag.getCount((byte)1) >= 6){
-                        last_status = "Indoor smoke";
+                        last_status = "Smoke detector";
                         color = requireContext().getColor(R.color.red);
                         setPicture(R.drawable.smoke);
                     }
                     else if(bag.getCount((byte)2)>=3){
-                        last_status = "The baby is crying";
+                        last_status = "Baby cry";
                         color = requireContext().getColor(R.color.accent);
                         setPicture(R.drawable.crying);
                     }
                     else if(bag.getCount((byte)4) >= 3){
-                        last_status = "Dog barking";
+                        last_status = "Dog bark";
                         color = requireContext().getColor(R.color.accent);
                         setPicture(R.drawable.bark);
                     }
                     else if(bag.getCount((byte)3) >= 4){
-                        last_status = "Background noise";
+                        last_status = "Noise";
                         color = requireContext().getColor(R.color.accent);
                         setPicture(R.drawable.noise);
                     }

@@ -2,7 +2,7 @@
     <string name="app_name">Smoke Detection</string>
     <string name="ecozy"><font color='#707585'>e</font><font color='#F16C6C'>Cozy</font></string>
     <string name="null_string">00:00:00:00:00:00</string>
-    <string name="title_indoor_smoke">Indoor smoke</string>
+    <string name="title_smoke_detector">Smoke detector</string>
     <string name="title_dog_barking">Dog barking</string>
     <string name="title_kid_crying">The baby is crying</string>
     <string name="title_noise">Background noise</string>
