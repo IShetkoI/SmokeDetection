@@ -97,7 +97,7 @@
                 android:layout_height="match_parent"
 
                 android:text="@string/smoke_detection"
-                android:textSize="@dimen/textFontSize"
+                android:textSize="14sp"
                 android:gravity="center"
                 android:padding="10dp"
                 />

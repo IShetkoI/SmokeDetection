@@ -34,8 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
 
-    private static String CHANNEL_ID = "Alert";
-
     private final HashMap<String, ScanResult> devices = new HashMap<>();
     private static ScanResult device = null;
 
@@ -44,10 +42,13 @@ public class MainActivity extends AppCompatActivity {
     private Boolean isConnected = false;
 
     private static final String[] ANDROID_12_BLE_PERMISSIONS = new String[]{
+            android.Manifest.permission.BLUETOOTH,
+            android.Manifest.permission.BLUETOOTH_ADMIN,
+            android.Manifest.permission.ACCESS_COARSE_LOCATION,
+            android.Manifest.permission.ACCESS_BACKGROUND_LOCATION,
+            android.Manifest.permission.ACCESS_FINE_LOCATION,
             android.Manifest.permission.BLUETOOTH_SCAN,
             android.Manifest.permission.BLUETOOTH_CONNECT,
-            Manifest.permission.ACCESS_FINE_LOCATION,
-            android.Manifest.permission.POST_NOTIFICATIONS,
     };
 
     @Override
@@ -57,8 +58,6 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(ltInflater);
         View view = binding.getRoot();
         setContentView(view);
-
-        createNotificationChannel();
 
         navigate(ControlFragment.newInstance("00:00:00:00:00:00"));
 
@@ -77,16 +76,6 @@ public class MainActivity extends AppCompatActivity {
                 navigate(DevicesFragment.newInstance());
             }
         });
-    }
-
-    public void showNotification(String title, String message) {
-
-        NotificationManagerCompat notificationManager =
-                NotificationManagerCompat.from(MainActivity.this);
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
-            return;
-        }
-        notificationManager.notify(100, buildNotification(title, message));
     }
 
     public void setHashMap(HashMap<String, ScanResult> items) {
@@ -120,35 +109,6 @@ public class MainActivity extends AppCompatActivity {
 
     public Boolean getIsConnected() {
         return isConnected;
-    }
-
-    public void createNotificationChannel() {
-        NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-        int importance = NotificationManager.IMPORTANCE_HIGH;
-        NotificationChannel mChannel = new NotificationChannel(CHANNEL_ID, CHANNEL_ID,importance);
-        mChannel.setDescription(CHANNEL_ID);
-        mChannel.enableLights(true);
-        mChannel.enableVibration(true);
-        mChannel.setVibrationPattern(new long[]{100, 200, 300, 400, 500, 400, 300, 200, 400});
-        mNotificationManager.createNotificationChannel(mChannel);
-    }
-
-    public Notification buildNotification(String title, String message) {
-        Intent fullScreenIntent = new Intent(this, MainActivity.class);
-        PendingIntent fullScreenPendingIntent = PendingIntent.getActivity(this, 0,
-                fullScreenIntent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
-
-        String CHANNEL_ID = "Cat channel";
-        NotificationCompat.Builder notificationBuilder =
-                new NotificationCompat.Builder(this, CHANNEL_ID)
-                        .setSmallIcon(R.mipmap.ic_launcher_round)
-                        .setContentTitle(title)
-                        .setContentText(message)
-                        .setPriority(NotificationCompat.PRIORITY_HIGH)
-                        .setCategory(NotificationCompat.CATEGORY_ERROR)
-                        .setFullScreenIntent(fullScreenPendingIntent, true);
-
-        return notificationBuilder.build();
     }
 
     private void navigate(Fragment fragment) {

@@ -164,23 +164,17 @@ public class ControlFragment extends BaseFragment<FragmentControlBinding> {
                 bag.add(value[0], 1);
 
                 if(bag.size() == 10){
-                    if(bag.getCount(1) >= 6){
+                    if(bag.getCount((byte)1) >= 6){
                         setPicture(R.drawable.smoke);
-                        title = getString(R.string.title_indoor_smoke);
-                        description = getString(R.string.description_indoor_smoke);
-                        ((MainActivity) getActivity()).showNotification(title, description);
                     }
-                    else if(bag.getCount(2)>=3){
+                    else if(bag.getCount((byte)2)>=3){
                         setPicture(R.drawable.crying);
-                        title = getString(R.string.title_kid_crying);
-                        description = getString(R.string.description_kid_crying);
-                        ((MainActivity) getActivity()).showNotification(title, description);
                     }
-                    else if(bag.getCount(3) >= 4){
+                    else if(bag.getCount((byte)4) >= 3){
+                        setPicture(R.drawable.bark);
+                    }
+                    else if(bag.getCount((byte)3) >= 4){
                         setPicture(R.drawable.noise);
-                        title = getString(R.string.title_noise);
-                        description = getString(R.string.description_noise);
-                        ((MainActivity) getActivity()).showNotification(title, description);
                     }
                     else {
                         setPicture(R.drawable.peace);
