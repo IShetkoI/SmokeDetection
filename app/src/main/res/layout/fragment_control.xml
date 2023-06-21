@@ -8,28 +8,22 @@
 
     <ImageView
         android:id="@+id/ivAlert"
-        android:layout_width="411dp"
-        android:layout_height="368dp"
-
-        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
         android:scaleType="fitCenter"
         android:src="@drawable/peace"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <soup.neumorphism.NeumorphCardView
         android:id="@+id/neumorphCardView"
-        android:layout_width="400dp"
-        android:layout_height="200dp"
-        android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:layout_marginTop="0dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivAlert"
-        app:layout_constraintVertical_bias="0.678"
         app:neumorph_shadowColorDark="@color/shadow_dark"
         app:neumorph_shadowColorLight="@color/shadow_light"
         app:neumorph_shadowElevation="6dp">
@@ -48,7 +42,7 @@
                 android:layout_marginTop="20dp"
                 android:text=""
                 android:textColor="@color/accent"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/status"
@@ -60,7 +54,7 @@
                 android:layout_marginBottom="39dp"
                 android:text=""
                 android:textColor="@color/accent"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/date"
@@ -72,7 +66,7 @@
                 android:layout_marginBottom="10dp"
                 android:text=""
                 android:textColor="@color/accent"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/time"
@@ -84,7 +78,7 @@
                 android:layout_marginBottom="20dp"
                 android:text=""
                 android:textColor="@color/accent"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
 
         </RelativeLayout>
