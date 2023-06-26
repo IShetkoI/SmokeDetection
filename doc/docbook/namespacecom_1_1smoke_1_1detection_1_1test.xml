@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1smoke_1_1detection_1_1test" xml:lang="en-US">
+<title>Package com.smoke.detection.test</title>
+<indexterm><primary>com.smoke.detection.test</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1test_1_1_build_config">BuildConfig</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Automatically generated file. DO NOT MODIFY </para>
+</section>
+</section>

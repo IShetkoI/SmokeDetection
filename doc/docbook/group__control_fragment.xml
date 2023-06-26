@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group__control_fragment" xml:lang="en-US">
+<title>ControlFragment class</title>
+<indexterm><primary>ControlFragment class</primary></indexterm>
+<para>
+
+<para>Bluetooth device control fragment class. </para>
+ 
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">com.smoke.detection.DevicesAdapter.DevicesViewHolder</emphasis></para>
+
+<para>Device list clas. </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback">com.smoke.detection.DevicesAdapter.Callback</link></para>
+
+<para>Creating an interface to work with clicking on the line in the list. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_group__control_fragment_1ga27c739fde4185c25f30a0c94d6cb8f0a">com.smoke.detection.ControlFragment.onCreate</link> (Bundle savedInstanceState)</para>
+
+<para>View creation method. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__control_fragment_1ga0bcf8e82f134e5ab1de54350d29c17eb">com.smoke.detection.ControlFragment.onViewCreated</link> (@NonNull View view, @Nullable Bundle savedInstanceState)</para>
+
+<para>Method works when the fragment is created. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__control_fragment_1ga0610d61733449223d7e635547f58da58">com.smoke.detection.ControlFragment.setPicture</link> (int drawable)</para>
+
+<para>Event picture update function. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__control_fragment_1ga2d383c8cc9f242520c9607cfb3e0bb81">com.smoke.detection.ControlFragment.readCharacteristic</link> (@NotNull BluetoothPeripheral peripheral, Boolean flag)</para>
+
+<para>Event picture update function. </para>
+</listitem>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1_control_fragment">ControlFragment</link> <link linkend="_group__control_fragment_1gac10a8c2d522530935727c8ab4f42dd92">com.smoke.detection.ControlFragment.newInstance</link> (String <link linkend="_classcom_1_1smoke_1_1detection_1_1_control_fragment_1ad3f29b7f3395f51d12feef0802ca35e2">address</link>)</para>
+
+<para>The method works when you switch to this fragment. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__control_fragment_1gabd2d667dc80ec823eb62f74950c9490f">com.smoke.detection.DevicesAdapter.update</link> (List&lt; ScanResult &gt; items)</para>
+
+<para>The method works by updating the list of found devices. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__control_fragment_1gac987ecf05c21eb4bddb8f04914a60f7a">com.smoke.detection.DevicesAdapter.setCallback</link> (<link linkend="_interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback">Callback</link> callback)</para>
+
+<para>Callback Assignment Method. </para>
+</listitem>
+            <listitem><para>DevicesViewHolder <link linkend="_group__control_fragment_1ga807ad27c26a54db4610583e631afc6b8">com.smoke.detection.DevicesAdapter.onCreateViewHolder</link> (@NonNull ViewGroup parent, int viewType)</para>
+
+<para>The method works by creating a list of devices on the fragment. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__control_fragment_1ga363ce275fb27f6473152c693add1c671">com.smoke.detection.DevicesAdapter.onBindViewHolder</link> (@NonNull DevicesViewHolder holder, int position)</para>
+
+<para>This method should update the contents of the RecyclerView.ViewHolder.itemView to reflect the item at the given position. </para>
+</listitem>
+            <listitem><para>int <link linkend="_group__control_fragment_1gaa131121cb453bcd5b22873f795ce17c4">com.smoke.detection.DevicesAdapter.getItemCount</link> ()</para>
+
+<para>Returns the total number of items in the data set held by the adapter. </para>
+</listitem>
+            <listitem><para><link linkend="_group__control_fragment_1ga6e09706342f6e4a2b032aec7fe699831">com.smoke.detection.DevicesAdapter.DevicesViewHolder.DevicesViewHolder</link> (@NonNull <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding">ItemDeviceBinding</link> binding)</para>
+
+<para>Class constructor. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__control_fragment_1gaa76ca62957faaf910b56a8a85b4fb476">com.smoke.detection.DevicesAdapter.DevicesViewHolder.bind</link> (ScanResult scanResult, ScanResult savedDevice)</para>
+
+<para>Method of creating a line in the list. </para>
+</listitem>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1_devices_fragment">DevicesFragment</link> <link linkend="_group__control_fragment_1gaf09f0eba534ea7a7a4186ab64e24c971">com.smoke.detection.DevicesFragment.newInstance</link> ()</para>
+
+<para>The method works when you switch to this fragment. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Bluetooth device control fragment class. </para>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_group__control_fragment_1gaa76ca62957faaf910b56a8a85b4fb476"/><section>
+    <title>bind()</title>
+<indexterm><primary>bind</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>bind</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesAdapter.DevicesViewHolder.bind (ScanResult scanResult, ScanResult savedDevice)</computeroutput></para><para>
+
+<para>Method of creating a line in the list. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>scanResult</entry><entry>
+<para>- Device after finding </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>savedDevice</entry><entry>
+<para>- Saved device already connected to </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1ga6e09706342f6e4a2b032aec7fe699831"/><section>
+    <title>DevicesViewHolder()</title>
+<indexterm><primary>DevicesViewHolder</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>DevicesViewHolder</secondary></indexterm>
+<para><computeroutput>com.smoke.detection.DevicesAdapter.DevicesViewHolder.DevicesViewHolder (@NonNull <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding">ItemDeviceBinding</link> binding)</computeroutput></para><para>
+
+<para>Class constructor. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>binding</entry><entry>
+<para>- Binding for simplified work with elements on the fragment </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1gaa131121cb453bcd5b22873f795ce17c4"/><section>
+    <title>getItemCount()</title>
+<indexterm><primary>getItemCount</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>getItemCount</secondary></indexterm>
+<para><computeroutput>int com.smoke.detection.DevicesAdapter.getItemCount ( )</computeroutput></para><para>
+
+<para>Returns the total number of items in the data set held by the adapter. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>out</entry><entry>The</entry><entry>
+<para>total number of items in this adapter </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1gaf09f0eba534ea7a7a4186ab64e24c971"/><section>
+    <title>newInstance()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>newInstance</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>newInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1_devices_fragment">DevicesFragment</link> com.smoke.detection.DevicesFragment.newInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>The method works when you switch to this fragment. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>out</entry><entry>fragment</entry><entry>
+<para>- Fragment data </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1gac10a8c2d522530935727c8ab4f42dd92"/><section>
+    <title>newInstance()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>newInstance</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>newInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1_control_fragment">ControlFragment</link> com.smoke.detection.ControlFragment.newInstance (String address)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>The method works when you switch to this fragment. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>address</entry><entry>
+<para>- The address of the device to be connected </para>
+</entry>
+                            </row>
+                            <row>
+<entry>out</entry><entry>fragment</entry><entry>
+<para>- Fragment data </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1ga363ce275fb27f6473152c693add1c671"/><section>
+    <title>onBindViewHolder()</title>
+<indexterm><primary>onBindViewHolder</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>onBindViewHolder</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesAdapter.onBindViewHolder (@NonNull DevicesViewHolder holder, int position)</computeroutput></para><para>
+
+<para>This method should update the contents of the RecyclerView.ViewHolder.itemView to reflect the item at the given position. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>holder</entry><entry>
+<para>– The ViewHolder which should be updated to represent the contents of the item at the given position in the data set </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>position</entry><entry>
+<para>– The position of the item within the adapter&apos;s data set </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1ga27c739fde4185c25f30a0c94d6cb8f0a"/><section>
+    <title>onCreate()</title>
+<indexterm><primary>onCreate</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>onCreate</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.ControlFragment.onCreate (Bundle savedInstanceState)</computeroutput></para><para>
+
+<para>View creation method. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>savedInstanceState</entry><entry>
+<para>- A mapping from String keys to various Parcelable values. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1ga807ad27c26a54db4610583e631afc6b8"/><section>
+    <title>onCreateViewHolder()</title>
+<indexterm><primary>onCreateViewHolder</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>onCreateViewHolder</secondary></indexterm>
+<para><computeroutput>DevicesViewHolder com.smoke.detection.DevicesAdapter.onCreateViewHolder (@NonNull ViewGroup parent, int viewType)</computeroutput></para><para>
+
+<para>The method works by creating a list of devices on the fragment. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>parent</entry><entry>
+<para>– The ViewGroup into which the new View will be added after it is bound to an adapter position </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>viewType</entry><entry>
+<para>– The view type of the new View. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1ga0bcf8e82f134e5ab1de54350d29c17eb"/><section>
+    <title>onViewCreated()</title>
+<indexterm><primary>onViewCreated</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>onViewCreated</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.ControlFragment.onViewCreated (@NonNull View view, @Nullable Bundle savedInstanceState)</computeroutput></para><para>
+
+<para>Method works when the fragment is created. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>view</entry><entry>
+<para>– The View returned by onCreateView(LayoutInflater, ViewGroup, Bundle) </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>savedInstanceState</entry><entry>
+<para>– If non-null, this fragment is being re-constructed from a previous saved state as given here. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1ga2d383c8cc9f242520c9607cfb3e0bb81"/><section>
+    <title>readCharacteristic()</title>
+<indexterm><primary>readCharacteristic</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>readCharacteristic</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.ControlFragment.readCharacteristic (@NotNull BluetoothPeripheral peripheral, Boolean flag)</computeroutput></para><para>
+
+<para>Event picture update function. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>peripheral</entry><entry>
+<para>- Represents a remote Bluetooth peripheral and replaces BluetoothDevice and BluetoothGatt </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>flag</entry><entry>
+<para>- Enable or disable reading the characteristic </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1gac987ecf05c21eb4bddb8f04914a60f7a"/><section>
+    <title>setCallback()</title>
+<indexterm><primary>setCallback</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>setCallback</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesAdapter.setCallback (<link linkend="_interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback">Callback</link> callback)</computeroutput></para><para>
+
+<para>Callback Assignment Method. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>callback</entry><entry>
+<para>- Callback on clicking on a device in the list </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1ga0610d61733449223d7e635547f58da58"/><section>
+    <title>setPicture()</title>
+<indexterm><primary>setPicture</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>setPicture</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.ControlFragment.setPicture (int drawable)</computeroutput></para><para>
+
+<para>Event picture update function. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>drawable</entry><entry>
+<para>- A picture of the event </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__control_fragment_1gabd2d667dc80ec823eb62f74950c9490f"/><section>
+    <title>update()</title>
+<indexterm><primary>update</primary><secondary>ControlFragment class</secondary></indexterm>
+<indexterm><primary>ControlFragment class</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesAdapter.update (List&lt; ScanResult &gt; items)</computeroutput></para><para>
+
+<para>The method works by updating the list of found devices. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>items</entry><entry>
+<para>- List of found devices </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+</section>

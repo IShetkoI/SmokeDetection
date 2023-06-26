@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group__base_fragment" xml:lang="en-US">
+<title>BaseFragment class</title>
+<indexterm><primary>BaseFragment class</primary></indexterm>
+<para>
+
+<para>An abstract class to work with binding. </para>
+ 
+</para>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>View <link linkend="_group__base_fragment_1ga3faeb38cafe725693f19c92860320101">com.smoke.detection.BaseFragment&lt; VB extends ViewBinding &gt;.onCreateView</link> (@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)</para>
+
+<para>Is a rewrite of the mapping creation method. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__base_fragment_1ga0a59783cc920d89e27e77c06bc892328">com.smoke.detection.BaseFragment&lt; VB extends ViewBinding &gt;.onDestroyView</link> ()</para>
+
+<para>This overwrites the method of destroying the fragment display. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>An abstract class to work with binding. </para>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_group__base_fragment_1ga3faeb38cafe725693f19c92860320101"/><section>
+    <title>onCreateView()</title>
+<indexterm><primary>onCreateView</primary><secondary>BaseFragment class</secondary></indexterm>
+<indexterm><primary>BaseFragment class</primary><secondary>onCreateView</secondary></indexterm>
+<para><computeroutput>View com.smoke.detection.BaseFragment&lt; VB extends ViewBinding &gt;.onCreateView (@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)</computeroutput></para><para>
+
+<para>Is a rewrite of the mapping creation method. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>inflater</entry><entry>
+<para>- The LayoutInflater class is used to instantiate the contents of layout XML files into their corresponding View objects. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>container</entry><entry>
+<para>- The view group is the base class for layouts and views containers </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>savedInstanceState</entry><entry>
+<para>- A mapping from String keys to various Parcelable values. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>out</entry><entry>binding</entry><entry>
+<para>- for simplified work with elements on the fragment </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__base_fragment_1ga0a59783cc920d89e27e77c06bc892328"/><section>
+    <title>onDestroyView()</title>
+<indexterm><primary>onDestroyView</primary><secondary>BaseFragment class</secondary></indexterm>
+<indexterm><primary>BaseFragment class</primary><secondary>onDestroyView</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.BaseFragment&lt; VB extends ViewBinding &gt;.onDestroyView ( )</computeroutput></para><para>
+
+<para>This overwrites the method of destroying the fragment display. </para>
+</para>
+</section>
+</section>
+</section>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding" xml:lang="en-US">
+<title>com.smoke.detection.databinding.FragmentControlBinding Class Reference</title>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary></indexterm>
+<para>Inheritance diagram for com.smoke.detection.databinding.FragmentControlBinding:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>ConstraintLayout <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1aeceaafadb83bd0ad17bfba28d6c426c6">getRoot</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding">FragmentControlBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1a7b7d9ff0c3d2da86a20554c5badec8eb">inflate</link> (@NonNull LayoutInflater inflater)</para>
+</listitem>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding">FragmentControlBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1a2c028ac01e6a92a3ec8f60b55cf59741">inflate</link> (@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)</para>
+</listitem>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding">FragmentControlBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1a05a3950eeaedf79936dd63b51fb95963">bind</link> (@NonNull View rootView)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final TextView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1a7a0f623f75b6d0eaa59ecdf6a8789009">date</link></para>
+</listitem>
+            <listitem><para>final ImageView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1ada4c4ae3dd8ded26d191265471eaa4d7">ivAlert</link></para>
+</listitem>
+            <listitem><para>final TextView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1acf0e83c094edd155e7144457d3b5d023">lastStatus</link></para>
+</listitem>
+            <listitem><para>final NeumorphCardView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1acbfb34028a3e53130e2024bb65f59518">neumorphCardView</link></para>
+</listitem>
+            <listitem><para>final TextView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1aed49a62dfa2d599827aa2637d3811cc8">status</link></para>
+</listitem>
+            <listitem><para>final TextView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1acaebb7ddc604f97ed1213095f4b37829">time</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1a05a3950eeaedf79936dd63b51fb95963"/><section>
+    <title>bind()</title>
+<indexterm><primary>bind</primary><secondary>com.smoke.detection.databinding.FragmentControlBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary><secondary>bind</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding">FragmentControlBinding</link> com.smoke.detection.databinding.FragmentControlBinding.bind (@NonNull View rootView)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1aeceaafadb83bd0ad17bfba28d6c426c6"/><section>
+    <title>getRoot()</title>
+<indexterm><primary>getRoot</primary><secondary>com.smoke.detection.databinding.FragmentControlBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary><secondary>getRoot</secondary></indexterm>
+<para><computeroutput>ConstraintLayout com.smoke.detection.databinding.FragmentControlBinding.getRoot ( )</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1a7b7d9ff0c3d2da86a20554c5badec8eb"/><section>
+    <title>inflate()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>inflate</primary><secondary>com.smoke.detection.databinding.FragmentControlBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary><secondary>inflate</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding">FragmentControlBinding</link> com.smoke.detection.databinding.FragmentControlBinding.inflate (@NonNull LayoutInflater inflater)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1a2c028ac01e6a92a3ec8f60b55cf59741"/><section>
+    <title>inflate()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>inflate</primary><secondary>com.smoke.detection.databinding.FragmentControlBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary><secondary>inflate</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding">FragmentControlBinding</link> com.smoke.detection.databinding.FragmentControlBinding.inflate (@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1a7a0f623f75b6d0eaa59ecdf6a8789009"/><section>
+    <title>date</title>
+<indexterm><primary>date</primary><secondary>com.smoke.detection.databinding.FragmentControlBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary><secondary>date</secondary></indexterm>
+<para><computeroutput>final TextView com.smoke.detection.databinding.FragmentControlBinding.date</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1ada4c4ae3dd8ded26d191265471eaa4d7"/><section>
+    <title>ivAlert</title>
+<indexterm><primary>ivAlert</primary><secondary>com.smoke.detection.databinding.FragmentControlBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary><secondary>ivAlert</secondary></indexterm>
+<para><computeroutput>final ImageView com.smoke.detection.databinding.FragmentControlBinding.ivAlert</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1acf0e83c094edd155e7144457d3b5d023"/><section>
+    <title>lastStatus</title>
+<indexterm><primary>lastStatus</primary><secondary>com.smoke.detection.databinding.FragmentControlBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary><secondary>lastStatus</secondary></indexterm>
+<para><computeroutput>final TextView com.smoke.detection.databinding.FragmentControlBinding.lastStatus</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1acbfb34028a3e53130e2024bb65f59518"/><section>
+    <title>neumorphCardView</title>
+<indexterm><primary>neumorphCardView</primary><secondary>com.smoke.detection.databinding.FragmentControlBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary><secondary>neumorphCardView</secondary></indexterm>
+<para><computeroutput>final NeumorphCardView com.smoke.detection.databinding.FragmentControlBinding.neumorphCardView</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1aed49a62dfa2d599827aa2637d3811cc8"/><section>
+    <title>status</title>
+<indexterm><primary>status</primary><secondary>com.smoke.detection.databinding.FragmentControlBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary><secondary>status</secondary></indexterm>
+<para><computeroutput>final TextView com.smoke.detection.databinding.FragmentControlBinding.status</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding_1acaebb7ddc604f97ed1213095f4b37829"/><section>
+    <title>time</title>
+<indexterm><primary>time</primary><secondary>com.smoke.detection.databinding.FragmentControlBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentControlBinding</primary><secondary>time</secondary></indexterm>
+<para><computeroutput>final TextView com.smoke.detection.databinding.FragmentControlBinding.time</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/build/generated/data_binding_base_class_source_out/debug/out/com/smoke/detection/databinding/<link linkend="__fragment_control_binding_8java">FragmentControlBinding.java</link></section>
+</section>

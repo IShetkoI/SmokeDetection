@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1smoke_1_1detection_1_1c_bluetooth_device" xml:lang="en-US">
+<title>com.smoke.detection.cBluetoothDevice Class Reference</title>
+<indexterm><primary>com.smoke.detection.cBluetoothDevice</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_group__bluetooth_device_1ga75e45a611868f79900fa09dc3f83aef3">cBluetoothDevice</link> (String name, String address)</para>
+
+<para>Class constructor. </para>
+</listitem>
+            <listitem><para>String <link linkend="_group__bluetooth_device_1ga2f3f116c7cbbea29f9a56294b787888d">getName</link> ()</para>
+
+<para>Method to get the device name. </para>
+</listitem>
+            <listitem><para>String <link linkend="_group__bluetooth_device_1gaf390be85fb5810d13f9fa4e6c487c678">getAddress</link> ()</para>
+
+<para>Method to get the device address. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/src/main/java/com/smoke/detection/<link linkend="_c_bluetooth_device_8java">cBluetoothDevice.java</link></section>

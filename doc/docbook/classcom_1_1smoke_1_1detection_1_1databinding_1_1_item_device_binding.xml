@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding" xml:lang="en-US">
+<title>com.smoke.detection.databinding.ItemDeviceBinding Class Reference</title>
+<indexterm><primary>com.smoke.detection.databinding.ItemDeviceBinding</primary></indexterm>
+<para>Inheritance diagram for com.smoke.detection.databinding.ItemDeviceBinding:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>RelativeLayout <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a2ee9cada7dadbeeed6d92f07e271cb66">getRoot</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding">ItemDeviceBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a2f3a696bda360e8893e3b63da1b58fed">inflate</link> (@NonNull LayoutInflater inflater)</para>
+</listitem>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding">ItemDeviceBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1acffe04d752e3f070914778796169e439">inflate</link> (@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)</para>
+</listitem>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding">ItemDeviceBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a3b16089e9638b889fce7655ca1eb971f">bind</link> (@NonNull View rootView)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final NeumorphButton <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a1693bc9a4754f6c0a87845062f3bcffc">bDisconnect</link></para>
+</listitem>
+            <listitem><para>final TextView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a2468754be8b4d72273052dde5f82de5f">textAddress</link></para>
+</listitem>
+            <listitem><para>final TextView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1ac574cfe45bbbf25ae587466e87e0c830">textName</link></para>
+</listitem>
+            <listitem><para>final TextView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a4c1e9492376a59fcae4b8f615f35d13f">textRSSI</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a3b16089e9638b889fce7655ca1eb971f"/><section>
+    <title>bind()</title>
+<indexterm><primary>bind</primary><secondary>com.smoke.detection.databinding.ItemDeviceBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ItemDeviceBinding</primary><secondary>bind</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding">ItemDeviceBinding</link> com.smoke.detection.databinding.ItemDeviceBinding.bind (@NonNull View rootView)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a2ee9cada7dadbeeed6d92f07e271cb66"/><section>
+    <title>getRoot()</title>
+<indexterm><primary>getRoot</primary><secondary>com.smoke.detection.databinding.ItemDeviceBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ItemDeviceBinding</primary><secondary>getRoot</secondary></indexterm>
+<para><computeroutput>RelativeLayout com.smoke.detection.databinding.ItemDeviceBinding.getRoot ( )</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a2f3a696bda360e8893e3b63da1b58fed"/><section>
+    <title>inflate()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>inflate</primary><secondary>com.smoke.detection.databinding.ItemDeviceBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ItemDeviceBinding</primary><secondary>inflate</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding">ItemDeviceBinding</link> com.smoke.detection.databinding.ItemDeviceBinding.inflate (@NonNull LayoutInflater inflater)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1acffe04d752e3f070914778796169e439"/><section>
+    <title>inflate()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>inflate</primary><secondary>com.smoke.detection.databinding.ItemDeviceBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ItemDeviceBinding</primary><secondary>inflate</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding">ItemDeviceBinding</link> com.smoke.detection.databinding.ItemDeviceBinding.inflate (@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a1693bc9a4754f6c0a87845062f3bcffc"/><section>
+    <title>bDisconnect</title>
+<indexterm><primary>bDisconnect</primary><secondary>com.smoke.detection.databinding.ItemDeviceBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ItemDeviceBinding</primary><secondary>bDisconnect</secondary></indexterm>
+<para><computeroutput>final NeumorphButton com.smoke.detection.databinding.ItemDeviceBinding.bDisconnect</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a2468754be8b4d72273052dde5f82de5f"/><section>
+    <title>textAddress</title>
+<indexterm><primary>textAddress</primary><secondary>com.smoke.detection.databinding.ItemDeviceBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ItemDeviceBinding</primary><secondary>textAddress</secondary></indexterm>
+<para><computeroutput>final TextView com.smoke.detection.databinding.ItemDeviceBinding.textAddress</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1ac574cfe45bbbf25ae587466e87e0c830"/><section>
+    <title>textName</title>
+<indexterm><primary>textName</primary><secondary>com.smoke.detection.databinding.ItemDeviceBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ItemDeviceBinding</primary><secondary>textName</secondary></indexterm>
+<para><computeroutput>final TextView com.smoke.detection.databinding.ItemDeviceBinding.textName</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding_1a4c1e9492376a59fcae4b8f615f35d13f"/><section>
+    <title>textRSSI</title>
+<indexterm><primary>textRSSI</primary><secondary>com.smoke.detection.databinding.ItemDeviceBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ItemDeviceBinding</primary><secondary>textRSSI</secondary></indexterm>
+<para><computeroutput>final TextView com.smoke.detection.databinding.ItemDeviceBinding.textRSSI</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/build/generated/data_binding_base_class_source_out/debug/out/com/smoke/detection/databinding/<link linkend="__item_device_binding_8java">ItemDeviceBinding.java</link></section>
+</section>

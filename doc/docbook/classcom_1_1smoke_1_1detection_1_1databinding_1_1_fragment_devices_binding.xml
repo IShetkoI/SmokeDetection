@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding" xml:lang="en-US">
+<title>com.smoke.detection.databinding.FragmentDevicesBinding Class Reference</title>
+<indexterm><primary>com.smoke.detection.databinding.FragmentDevicesBinding</primary></indexterm>
+<para>Inheritance diagram for com.smoke.detection.databinding.FragmentDevicesBinding:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>ConstraintLayout <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a363d81b47a2c827dabea33727c30ffd8">getRoot</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding">FragmentDevicesBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a77e789a288264dc06bb9b6db23d26c1f">inflate</link> (@NonNull LayoutInflater inflater)</para>
+</listitem>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding">FragmentDevicesBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a7d5f177d99896a92ccb77c65a6ba50cf">inflate</link> (@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)</para>
+</listitem>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding">FragmentDevicesBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1ade8b50b57b19bfe1042ba8690464f227">bind</link> (@NonNull View rootView)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final NeumorphImageButton <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a09bb273ace00fd113be9c372f416efcb">bRefresh</link></para>
+</listitem>
+            <listitem><para>final RelativeLayout <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a18131d56d5a884e179333b4e610529fc">rlDevice</link></para>
+</listitem>
+            <listitem><para>final RecyclerView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a5d3e80b0d82a5099ec3116c558593711">rvDevicesRecycler</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1ade8b50b57b19bfe1042ba8690464f227"/><section>
+    <title>bind()</title>
+<indexterm><primary>bind</primary><secondary>com.smoke.detection.databinding.FragmentDevicesBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentDevicesBinding</primary><secondary>bind</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding">FragmentDevicesBinding</link> com.smoke.detection.databinding.FragmentDevicesBinding.bind (@NonNull View rootView)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a363d81b47a2c827dabea33727c30ffd8"/><section>
+    <title>getRoot()</title>
+<indexterm><primary>getRoot</primary><secondary>com.smoke.detection.databinding.FragmentDevicesBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentDevicesBinding</primary><secondary>getRoot</secondary></indexterm>
+<para><computeroutput>ConstraintLayout com.smoke.detection.databinding.FragmentDevicesBinding.getRoot ( )</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a77e789a288264dc06bb9b6db23d26c1f"/><section>
+    <title>inflate()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>inflate</primary><secondary>com.smoke.detection.databinding.FragmentDevicesBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentDevicesBinding</primary><secondary>inflate</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding">FragmentDevicesBinding</link> com.smoke.detection.databinding.FragmentDevicesBinding.inflate (@NonNull LayoutInflater inflater)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a7d5f177d99896a92ccb77c65a6ba50cf"/><section>
+    <title>inflate()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>inflate</primary><secondary>com.smoke.detection.databinding.FragmentDevicesBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentDevicesBinding</primary><secondary>inflate</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding">FragmentDevicesBinding</link> com.smoke.detection.databinding.FragmentDevicesBinding.inflate (@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a09bb273ace00fd113be9c372f416efcb"/><section>
+    <title>bRefresh</title>
+<indexterm><primary>bRefresh</primary><secondary>com.smoke.detection.databinding.FragmentDevicesBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentDevicesBinding</primary><secondary>bRefresh</secondary></indexterm>
+<para><computeroutput>final NeumorphImageButton com.smoke.detection.databinding.FragmentDevicesBinding.bRefresh</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a18131d56d5a884e179333b4e610529fc"/><section>
+    <title>rlDevice</title>
+<indexterm><primary>rlDevice</primary><secondary>com.smoke.detection.databinding.FragmentDevicesBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentDevicesBinding</primary><secondary>rlDevice</secondary></indexterm>
+<para><computeroutput>final RelativeLayout com.smoke.detection.databinding.FragmentDevicesBinding.rlDevice</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding_1a5d3e80b0d82a5099ec3116c558593711"/><section>
+    <title>rvDevicesRecycler</title>
+<indexterm><primary>rvDevicesRecycler</primary><secondary>com.smoke.detection.databinding.FragmentDevicesBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.FragmentDevicesBinding</primary><secondary>rvDevicesRecycler</secondary></indexterm>
+<para><computeroutput>final RecyclerView com.smoke.detection.databinding.FragmentDevicesBinding.rvDevicesRecycler</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/build/generated/data_binding_base_class_source_out/debug/out/com/smoke/detection/databinding/<link linkend="__fragment_devices_binding_8java">FragmentDevicesBinding.java</link></section>
+</section>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>eCozy Smart Detector</title>
+    </info>
+<chapter>
+    <title>Module Documentation</title>
+    <xi:include href="group__base_fragment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group__bluetooth_device.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group__control_fragment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group__devices_adapter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group__devices_fragment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="group__main_activity.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespacecom_1_1smoke_1_1detection.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecom_1_1smoke_1_1detection_1_1databinding.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecom_1_1smoke_1_1detection_1_1test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1_build_config.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1c_bluetooth_device.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1_control_fragment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1_devices_adapter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1_devices_fragment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1_example_instrumented_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1_example_unit_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcom_1_1smoke_1_1detection_1_1_main_activity.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="_activity_main_binding_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_fragment_control_binding_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_fragment_devices_binding_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_item_device_binding_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="android_test_2debug_2com_2smoke_2detection_2test_2_build_config_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="debug_2com_2smoke_2detection_2_build_config_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_example_instrumented_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_base_fragment_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="c_bluetooth_device_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_control_fragment_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_devices_adapter_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_devices_fragment_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_activity_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_example_unit_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

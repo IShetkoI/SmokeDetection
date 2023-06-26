@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1smoke_1_1detection_1_1_example_unit_test" xml:lang="en-US">
+<title>com.smoke.detection.ExampleUnitTest Class Reference</title>
+<indexterm><primary>com.smoke.detection.ExampleUnitTest</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcom_1_1smoke_1_1detection_1_1_example_unit_test_1a50af02050ac2540cbe41cb9c9d989625">addition_isCorrect</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Example local unit test, which will execute on the development machine (host).</para>
+
+<para><formalpara><title>See also</title>
+
+<para><link xlink:href="http://d.android.com/tools/testing">Testing documentation</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1_example_unit_test_1a50af02050ac2540cbe41cb9c9d989625"/><section>
+    <title>addition_isCorrect()</title>
+<indexterm><primary>addition_isCorrect</primary><secondary>com.smoke.detection.ExampleUnitTest</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.ExampleUnitTest</primary><secondary>addition_isCorrect</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.ExampleUnitTest.addition_isCorrect ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/src/test/java/com/smoke/detection/<link linkend="__example_unit_test_8java">ExampleUnitTest.java</link></section>
+</section>

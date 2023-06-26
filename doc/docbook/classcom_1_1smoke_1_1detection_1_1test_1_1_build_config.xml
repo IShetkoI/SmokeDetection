@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1smoke_1_1detection_1_1test_1_1_build_config" xml:lang="en-US">
+<title>com.smoke.detection.test.BuildConfig Class Reference</title>
+<indexterm><primary>com.smoke.detection.test.BuildConfig</primary></indexterm>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static final boolean <link linkend="_classcom_1_1smoke_1_1detection_1_1test_1_1_build_config_1a55a15afb9b685d61a1e42e728e535bd8">DEBUG</link> = Boolean.parseBoolean(&quot;true&quot;)</para>
+</listitem>
+            <listitem><para>static final String <link linkend="_classcom_1_1smoke_1_1detection_1_1test_1_1_build_config_1a06e496a27512244b92e1cbbfc85f1c03">APPLICATION_ID</link> = &quot;com.smoke.detection.test&quot;</para>
+</listitem>
+            <listitem><para>static final String <link linkend="_classcom_1_1smoke_1_1detection_1_1test_1_1_build_config_1ac601d0aad404455ab060ba9fe3149594">BUILD_TYPE</link> = &quot;debug&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1test_1_1_build_config_1a06e496a27512244b92e1cbbfc85f1c03"/><section>
+    <title>APPLICATION_ID</title>
+<indexterm><primary>APPLICATION_ID</primary><secondary>com.smoke.detection.test.BuildConfig</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.test.BuildConfig</primary><secondary>APPLICATION_ID</secondary></indexterm>
+<para><computeroutput>final String com.smoke.detection.test.BuildConfig.APPLICATION_ID = &quot;com.smoke.detection.test&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1test_1_1_build_config_1ac601d0aad404455ab060ba9fe3149594"/><section>
+    <title>BUILD_TYPE</title>
+<indexterm><primary>BUILD_TYPE</primary><secondary>com.smoke.detection.test.BuildConfig</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.test.BuildConfig</primary><secondary>BUILD_TYPE</secondary></indexterm>
+<para><computeroutput>final String com.smoke.detection.test.BuildConfig.BUILD_TYPE = &quot;debug&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1test_1_1_build_config_1a55a15afb9b685d61a1e42e728e535bd8"/><section>
+    <title>DEBUG</title>
+<indexterm><primary>DEBUG</primary><secondary>com.smoke.detection.test.BuildConfig</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.test.BuildConfig</primary><secondary>DEBUG</secondary></indexterm>
+<para><computeroutput>final boolean com.smoke.detection.test.BuildConfig.DEBUG = Boolean.parseBoolean(&quot;true&quot;)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/build/generated/source/buildConfig/androidTest/debug/com/smoke/detection/test/<link linkend="_android_test_2debug_2com_2smoke_2detection_2test_2_build_config_8java">BuildConfig.java</link></section>
+</section>

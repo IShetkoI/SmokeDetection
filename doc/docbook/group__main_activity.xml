@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group__main_activity" xml:lang="en-US">
+<title>MainActivity class</title>
+<indexterm><primary>MainActivity class</primary></indexterm>
+<para>
+
+<para>Main activity class. </para>
+ 
+</para>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_group__main_activity_1ga8d66ce016833a7de0e2bb4b5be2eec2f">com.smoke.detection.MainActivity.onCreate</link> (@Nullable Bundle savedInstanceState)</para>
+
+<para>The method is called when the activity is first created. </para>
+</listitem>
+            <listitem><para>SharedPreferences <link linkend="_group__main_activity_1ga47595a2a460aac3807bd0dbc29d15fdc">com.smoke.detection.MainActivity.getEditor</link> ()</para>
+
+<para>Function to access storage from fragments. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__main_activity_1ga22e267c0c24462541e2a4c69c32b0c7a">com.smoke.detection.MainActivity.setHashMap</link> (HashMap&lt; String, ScanResult &gt; items)</para>
+
+<para>Function for saving the list of found devices. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__main_activity_1ga248554716942cbf23ef49b82c3ce0dff">com.smoke.detection.MainActivity.setSavedDevice</link> (ScanResult item)</para>
+
+<para>Function for saving the data of a connected device. </para>
+</listitem>
+            <listitem><para>HashMap&lt; String, ScanResult &gt; <link linkend="_group__main_activity_1ga3022c5de722b3be2fb31af750706c791">com.smoke.detection.MainActivity.getHashMap</link> ()</para>
+
+<para>Function for getting the list of found devices. </para>
+</listitem>
+            <listitem><para>static ScanResult <link linkend="_group__main_activity_1ga5c2601eb9da86bd3f07323ce59818ee4">com.smoke.detection.MainActivity.getSavedDevice</link> ()</para>
+
+<para>Function for retrieving data from a connected device. </para>
+</listitem>
+            <listitem><para>static void <link linkend="_group__main_activity_1ga3e992bcbbea215e98615781fa0145211">com.smoke.detection.MainActivity.setToDisconnect</link> (Boolean flag)</para>
+
+<para>Function to save the status on the device disconnection. </para>
+</listitem>
+            <listitem><para>static Boolean <link linkend="_group__main_activity_1gaa7e273cf314b238b61ca96b1d110d4ba">com.smoke.detection.MainActivity.getToDisconnect</link> ()</para>
+
+<para>Function for receiving status to disconnect the device. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__main_activity_1ga4927d963580988aeac37d37691180524">com.smoke.detection.MainActivity.setIsConnected</link> (Boolean flag)</para>
+
+<para>Function for saving the connection status of the device. </para>
+</listitem>
+            <listitem><para>Boolean <link linkend="_group__main_activity_1ga1ea8ab9e8bf2e46f64be87c9f0604a5b">com.smoke.detection.MainActivity.getIsConnected</link> ()</para>
+
+<para>Function to get the connection status of the device. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Main activity class. </para>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_group__main_activity_1ga47595a2a460aac3807bd0dbc29d15fdc"/><section>
+    <title>getEditor()</title>
+<indexterm><primary>getEditor</primary><secondary>MainActivity class</secondary></indexterm>
+<indexterm><primary>MainActivity class</primary><secondary>getEditor</secondary></indexterm>
+<para><computeroutput>SharedPreferences com.smoke.detection.MainActivity.getEditor ( )</computeroutput></para><para>
+
+<para>Function to access storage from fragments. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>out</entry><entry>editor</entry><entry>
+<para>- Storage on the smartphone </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__main_activity_1ga3022c5de722b3be2fb31af750706c791"/><section>
+    <title>getHashMap()</title>
+<indexterm><primary>getHashMap</primary><secondary>MainActivity class</secondary></indexterm>
+<indexterm><primary>MainActivity class</primary><secondary>getHashMap</secondary></indexterm>
+<para><computeroutput>HashMap&lt; String, ScanResult &gt; com.smoke.detection.MainActivity.getHashMap ( )</computeroutput></para><para>
+
+<para>Function for getting the list of found devices. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>out</entry><entry>devices</entry><entry>
+<para>- List of found devices </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__main_activity_1ga1ea8ab9e8bf2e46f64be87c9f0604a5b"/><section>
+    <title>getIsConnected()</title>
+<indexterm><primary>getIsConnected</primary><secondary>MainActivity class</secondary></indexterm>
+<indexterm><primary>MainActivity class</primary><secondary>getIsConnected</secondary></indexterm>
+<para><computeroutput>Boolean com.smoke.detection.MainActivity.getIsConnected ( )</computeroutput></para><para>
+
+<para>Function to get the connection status of the device. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>out</entry><entry>isConnected</entry><entry>
+<para>- Whether the device is connected or not </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__main_activity_1ga5c2601eb9da86bd3f07323ce59818ee4"/><section>
+    <title>getSavedDevice()</title>
+<indexterm><primary>getSavedDevice</primary><secondary>MainActivity class</secondary></indexterm>
+<indexterm><primary>MainActivity class</primary><secondary>getSavedDevice</secondary></indexterm>
+<para><computeroutput>static ScanResult com.smoke.detection.MainActivity.getSavedDevice ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Function for retrieving data from a connected device. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>out</entry><entry>device</entry><entry>
+<para>- Connected device data </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__main_activity_1gaa7e273cf314b238b61ca96b1d110d4ba"/><section>
+    <title>getToDisconnect()</title>
+<indexterm><primary>getToDisconnect</primary><secondary>MainActivity class</secondary></indexterm>
+<indexterm><primary>MainActivity class</primary><secondary>getToDisconnect</secondary></indexterm>
+<para><computeroutput>static Boolean com.smoke.detection.MainActivity.getToDisconnect ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Function for receiving status to disconnect the device. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>out</entry><entry>toDisconnect</entry><entry>
+<para>- Are we going to disconnect the device or not </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__main_activity_1ga8d66ce016833a7de0e2bb4b5be2eec2f"/><section>
+    <title>onCreate()</title>
+<indexterm><primary>onCreate</primary><secondary>MainActivity class</secondary></indexterm>
+<indexterm><primary>MainActivity class</primary><secondary>onCreate</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.MainActivity.onCreate (@Nullable Bundle savedInstanceState)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>The method is called when the activity is first created. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>savedInstanceState</entry><entry>
+<para>- A mapping from String keys to various Parcelable values. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__main_activity_1ga22e267c0c24462541e2a4c69c32b0c7a"/><section>
+    <title>setHashMap()</title>
+<indexterm><primary>setHashMap</primary><secondary>MainActivity class</secondary></indexterm>
+<indexterm><primary>MainActivity class</primary><secondary>setHashMap</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.MainActivity.setHashMap (HashMap&lt; String, ScanResult &gt; items)</computeroutput></para><para>
+
+<para>Function for saving the list of found devices. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>items</entry><entry>
+<para>- List of found devices </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__main_activity_1ga4927d963580988aeac37d37691180524"/><section>
+    <title>setIsConnected()</title>
+<indexterm><primary>setIsConnected</primary><secondary>MainActivity class</secondary></indexterm>
+<indexterm><primary>MainActivity class</primary><secondary>setIsConnected</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.MainActivity.setIsConnected (Boolean flag)</computeroutput></para><para>
+
+<para>Function for saving the connection status of the device. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>flag</entry><entry>
+<para>- Whether the device is connected or not </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__main_activity_1ga248554716942cbf23ef49b82c3ce0dff"/><section>
+    <title>setSavedDevice()</title>
+<indexterm><primary>setSavedDevice</primary><secondary>MainActivity class</secondary></indexterm>
+<indexterm><primary>MainActivity class</primary><secondary>setSavedDevice</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.MainActivity.setSavedDevice (ScanResult item)</computeroutput></para><para>
+
+<para>Function for saving the data of a connected device. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>item</entry><entry>
+<para>- Connected device data </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__main_activity_1ga3e992bcbbea215e98615781fa0145211"/><section>
+    <title>setToDisconnect()</title>
+<indexterm><primary>setToDisconnect</primary><secondary>MainActivity class</secondary></indexterm>
+<indexterm><primary>MainActivity class</primary><secondary>setToDisconnect</secondary></indexterm>
+<para><computeroutput>static void com.smoke.detection.MainActivity.setToDisconnect (Boolean flag)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Function to save the status on the device disconnection. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>flag</entry><entry>
+<para>- Are we going to disconnect the device or not </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+</section>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_69c1e7000983f769777d6699a069428d" xml:lang="en-US">
+<title>app/src/main/java/com/smoke/detection Directory Reference</title>
+<indexterm><primary>app/src/main/java/com/smoke/detection Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__base_fragment_8java">BaseFragment.java</link></para>
+
+<para>This file contains a base class for fragments. </para>
+</listitem>
+            <listitem><para>file <link linkend="_c_bluetooth_device_8java">cBluetoothDevice.java</link></para>
+
+<para>This file contains a class that stores data about the bluetooth device found. </para>
+</listitem>
+            <listitem><para>file <link linkend="__control_fragment_8java">ControlFragment.java</link></para>
+
+<para>This file contains the bluetooth device control fragment class. </para>
+</listitem>
+            <listitem><para>file <link linkend="__devices_adapter_8java">DevicesAdapter.java</link></para>
+
+<para>This file contains the adapter for the list of found devices. </para>
+</listitem>
+            <listitem><para>file <link linkend="__devices_fragment_8java">DevicesFragment.java</link></para>
+
+<para>This file contains a fragment class with a list of found devices. </para>
+</listitem>
+            <listitem><para>file <link linkend="__main_activity_8java">MainActivity.java</link></para>
+
+<para>This file contains the main activity class. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

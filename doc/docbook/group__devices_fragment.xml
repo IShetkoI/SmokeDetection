@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_group__devices_fragment" xml:lang="en-US">
+<title>DevicesFragment class</title>
+<indexterm><primary>DevicesFragment class</primary></indexterm>
+<para>
+
+<para>The fragment class with the list of found devices. </para>
+ 
+</para>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_group__devices_fragment_1gaa92ff522fa123fc6b5a3083f0fcdecf6">com.smoke.detection.DevicesFragment.onViewCreated</link> (@NonNull View view, @Nullable Bundle savedInstanceState)</para>
+
+<para>Method works when the fragment is created. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1ga147a0774a0d4486f89ee20023b6b7474">com.smoke.detection.DevicesFragment.scanDevices</link> ()</para>
+
+<para>New device search function. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1gaeadbf3135b1d3b154b2936ef877a5e97">com.smoke.detection.DevicesFragment.onPause</link> ()</para>
+
+<para>Called when the Fragment is no longer resumed. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1ga56703c87294691d6c604a35f5920fece">com.smoke.detection.DevicesFragment.onResume</link> ()</para>
+
+<para>Called when the fragment is visible to the user and actively running. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1gad9d73c25e0e71fd5a5ffa88ffa815989">com.smoke.detection.DevicesFragment.isConnected</link> ()</para>
+
+<para>Function to check if the device needs to be disconnected. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1gaf18f063cb5c462215d6035056ddb672f">com.smoke.detection.DevicesFragment.disconnectPeripheral</link> ()</para>
+
+<para>Device disconnection function. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1ga3742956484728ebc756f3e4e45ab17b3">com.smoke.detection.DevicesFragment.onItemClick</link> (ScanResult scanResult)</para>
+
+<para>Function for processing a click on the line in the device list. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The fragment class with the list of found devices. </para>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_group__devices_fragment_1gaf18f063cb5c462215d6035056ddb672f"/><section>
+    <title>disconnectPeripheral()</title>
+<indexterm><primary>disconnectPeripheral</primary><secondary>DevicesFragment class</secondary></indexterm>
+<indexterm><primary>DevicesFragment class</primary><secondary>disconnectPeripheral</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesFragment.disconnectPeripheral ( )</computeroutput></para><para>
+
+<para>Device disconnection function. </para>
+</para>
+</section>
+<anchor xml:id="_group__devices_fragment_1gad9d73c25e0e71fd5a5ffa88ffa815989"/><section>
+    <title>isConnected()</title>
+<indexterm><primary>isConnected</primary><secondary>DevicesFragment class</secondary></indexterm>
+<indexterm><primary>DevicesFragment class</primary><secondary>isConnected</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesFragment.isConnected ( )</computeroutput></para><para>
+
+<para>Function to check if the device needs to be disconnected. </para>
+</para>
+</section>
+<anchor xml:id="_group__devices_fragment_1ga3742956484728ebc756f3e4e45ab17b3"/><section>
+    <title>onItemClick()</title>
+<indexterm><primary>onItemClick</primary><secondary>DevicesFragment class</secondary></indexterm>
+<indexterm><primary>DevicesFragment class</primary><secondary>onItemClick</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesFragment.onItemClick (ScanResult scanResult)</computeroutput></para><para>
+
+<para>Function for processing a click on the line in the device list. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>scanResult</entry><entry>
+<para>- Data about the device found </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback_1a9ff36009e89778ea8962b4c960b231bb">com.smoke.detection.DevicesAdapter.Callback</link>.</para>
+</section>
+<anchor xml:id="_group__devices_fragment_1gaeadbf3135b1d3b154b2936ef877a5e97"/><section>
+    <title>onPause()</title>
+<indexterm><primary>onPause</primary><secondary>DevicesFragment class</secondary></indexterm>
+<indexterm><primary>DevicesFragment class</primary><secondary>onPause</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesFragment.onPause ( )</computeroutput></para><para>
+
+<para>Called when the Fragment is no longer resumed. </para>
+</para>
+</section>
+<anchor xml:id="_group__devices_fragment_1ga56703c87294691d6c604a35f5920fece"/><section>
+    <title>onResume()</title>
+<indexterm><primary>onResume</primary><secondary>DevicesFragment class</secondary></indexterm>
+<indexterm><primary>DevicesFragment class</primary><secondary>onResume</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesFragment.onResume ( )</computeroutput></para><para>
+
+<para>Called when the fragment is visible to the user and actively running. </para>
+</para>
+</section>
+<anchor xml:id="_group__devices_fragment_1gaa92ff522fa123fc6b5a3083f0fcdecf6"/><section>
+    <title>onViewCreated()</title>
+<indexterm><primary>onViewCreated</primary><secondary>DevicesFragment class</secondary></indexterm>
+<indexterm><primary>DevicesFragment class</primary><secondary>onViewCreated</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesFragment.onViewCreated (@NonNull View view, @Nullable Bundle savedInstanceState)</computeroutput></para><para>
+
+<para>Method works when the fragment is created. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>in</entry><entry>view</entry><entry>
+<para>– The View returned by onCreateView(LayoutInflater, ViewGroup, Bundle) </para>
+</entry>
+                            </row>
+                            <row>
+<entry>in</entry><entry>savedInstanceState</entry><entry>
+<para>– If non-null, this fragment is being re-constructed from a previous saved state as given here. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_group__devices_fragment_1ga147a0774a0d4486f89ee20023b6b7474"/><section>
+    <title>scanDevices()</title>
+<indexterm><primary>scanDevices</primary><secondary>DevicesFragment class</secondary></indexterm>
+<indexterm><primary>DevicesFragment class</primary><secondary>scanDevices</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.DevicesFragment.scanDevices ( )</computeroutput></para><para>
+
+<para>New device search function. </para>
+</para>
+</section>
+</section>
+</section>

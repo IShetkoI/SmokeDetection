@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_e047b27af3468793978ccc21628038c5" xml:lang="en-US">
+<title>app/build/generated/data_binding_base_class_source_out/debug/out/com/smoke/detection/databinding Directory Reference</title>
+<indexterm><primary>app/build/generated/data_binding_base_class_source_out/debug/out/com/smoke/detection/databinding Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__activity_main_binding_8java">ActivityMainBinding.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__fragment_control_binding_8java">FragmentControlBinding.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__fragment_devices_binding_8java">FragmentDevicesBinding.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__item_device_binding_8java">ItemDeviceBinding.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

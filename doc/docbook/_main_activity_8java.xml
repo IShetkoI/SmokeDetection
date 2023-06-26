@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__main_activity_8java" xml:lang="en-US">
+<title>app/src/main/java/com/smoke/detection/MainActivity.java File Reference</title>
+<indexterm><primary>app/src/main/java/com/smoke/detection/MainActivity.java</primary></indexterm>
+<para>
+
+<para>This file contains the main activity class. </para>
+ 
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1_main_activity">com.smoke.detection.MainActivity</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespacecom_1_1smoke_1_1detection">com.smoke.detection</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This file contains the main activity class. </para>
+</section>
+</section>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_c033f731660b9b391579f1e04611dca1" xml:lang="en-US">
+<title>app/src/androidTest/java Directory Reference</title>
+<indexterm><primary>app/src/androidTest/java Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_5c4d4cd2cac429a594c6bd21fe4f7d64">com</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

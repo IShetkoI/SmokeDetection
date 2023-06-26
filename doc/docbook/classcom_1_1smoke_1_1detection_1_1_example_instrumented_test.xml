@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1smoke_1_1detection_1_1_example_instrumented_test" xml:lang="en-US">
+<title>com.smoke.detection.ExampleInstrumentedTest Class Reference</title>
+<indexterm><primary>com.smoke.detection.ExampleInstrumentedTest</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcom_1_1smoke_1_1detection_1_1_example_instrumented_test_1a260db22314821bfc7226807a3b445f69">useAppContext</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Instrumented test, which will execute on an Android device.</para>
+
+<para><formalpara><title>See also</title>
+
+<para><link xlink:href="http://d.android.com/tools/testing">Testing documentation</link> </para>
+</formalpara>
+</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1_example_instrumented_test_1a260db22314821bfc7226807a3b445f69"/><section>
+    <title>useAppContext()</title>
+<indexterm><primary>useAppContext</primary><secondary>com.smoke.detection.ExampleInstrumentedTest</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.ExampleInstrumentedTest</primary><secondary>useAppContext</secondary></indexterm>
+<para><computeroutput>void com.smoke.detection.ExampleInstrumentedTest.useAppContext ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/src/androidTest/java/com/smoke/detection/<link linkend="__example_instrumented_test_8java">ExampleInstrumentedTest.java</link></section>
+</section>

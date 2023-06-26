@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_900499763edb72a2e873b816579e826e" xml:lang="en-US">
+<title>app/build/generated/source/buildConfig/debug/com/smoke/detection Directory Reference</title>
+<indexterm><primary>app/build/generated/source/buildConfig/debug/com/smoke/detection Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_debug_2com_2smoke_2detection_2_build_config_8java">BuildConfig.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

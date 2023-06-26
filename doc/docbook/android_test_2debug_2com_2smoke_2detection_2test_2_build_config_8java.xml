@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_android_test_2debug_2com_2smoke_2detection_2test_2_build_config_8java" xml:lang="en-US">
+<title>app/build/generated/source/buildConfig/androidTest/debug/com/smoke/detection/test/BuildConfig.java File Reference</title>
+<indexterm><primary>app/build/generated/source/buildConfig/androidTest/debug/com/smoke/detection/test/BuildConfig.java</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1test_1_1_build_config">com.smoke.detection.test.BuildConfig</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespacecom_1_1smoke_1_1detection_1_1test">com.smoke.detection.test</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1smoke_1_1detection_1_1_devices_fragment" xml:lang="en-US">
+<title>com.smoke.detection.DevicesFragment Class Reference</title>
+<indexterm><primary>com.smoke.detection.DevicesFragment</primary></indexterm>
+<para>Inheritance diagram for com.smoke.detection.DevicesFragment:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1smoke_1_1detection_1_1_devices_fragment.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_group__devices_fragment_1gaa92ff522fa123fc6b5a3083f0fcdecf6">onViewCreated</link> (@NonNull View view, @Nullable Bundle savedInstanceState)</para>
+
+<para>Method works when the fragment is created. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1ga147a0774a0d4486f89ee20023b6b7474">scanDevices</link> ()</para>
+
+<para>New device search function. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1gaeadbf3135b1d3b154b2936ef877a5e97">onPause</link> ()</para>
+
+<para>Called when the Fragment is no longer resumed. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1ga56703c87294691d6c604a35f5920fece">onResume</link> ()</para>
+
+<para>Called when the fragment is visible to the user and actively running. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1gad9d73c25e0e71fd5a5ffa88ffa815989">isConnected</link> ()</para>
+
+<para>Function to check if the device needs to be disconnected. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1gaf18f063cb5c462215d6035056ddb672f">disconnectPeripheral</link> ()</para>
+
+<para>Device disconnection function. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__devices_fragment_1ga3742956484728ebc756f3e4e45ab17b3">onItemClick</link> (ScanResult scanResult)</para>
+
+<para>Function for processing a click on the line in the device list. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback_1a9ff36009e89778ea8962b4c960b231bb">onItemClick</link> (ScanResult device)</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1_devices_fragment">DevicesFragment</link> <link linkend="_group__control_fragment_1gaf09f0eba534ea7a7a4186ab64e24c971">newInstance</link> ()</para>
+
+<para>The method works when you switch to this fragment. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/src/main/java/com/smoke/detection/<link linkend="__devices_fragment_8java">DevicesFragment.java</link></section>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_83a12dfada8a3cfe42bb3ac5b94a9dbc" xml:lang="en-US">
+<title>app/build/generated/source/buildConfig/androidTest/debug/com/smoke/detection Directory Reference</title>
+<indexterm><primary>app/build/generated/source/buildConfig/androidTest/debug/com/smoke/detection Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_70fa0c1eeda4c3a8a35d535bf99ecc48">test</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

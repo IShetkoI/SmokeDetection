@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_2932b73aeda593be1656e282063ce3a5" xml:lang="en-US">
+<title>app/build/generated/source/buildConfig Directory Reference</title>
+<indexterm><primary>app/build/generated/source/buildConfig Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_5a9341f976829bf33e71b44d0599b185">androidTest</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_2fff6f08598ce93bef2c7824b4a19591">debug</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

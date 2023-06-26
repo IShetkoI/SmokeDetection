@@ -1,0 +1,549 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#adf4786847d018fd1ab45336b47061211"><param name="Name" value="APPLICATION_ID"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#adf4786847d018fd1ab45336b47061211"><param name="Name" value="com::smoke::detection::BuildConfig"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html#a06e496a27512244b92e1cbbfc85f1c03"><param name="Name" value="APPLICATION_ID"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html#a06e496a27512244b92e1cbbfc85f1c03"><param name="Name" value="com::smoke::detection::test::BuildConfig"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#a7394d7318d28b33791891eb9e928e936"><param name="Name" value="BUILD_TYPE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#a7394d7318d28b33791891eb9e928e936"><param name="Name" value="com::smoke::detection::BuildConfig"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html#ac601d0aad404455ab060ba9fe3149594"><param name="Name" value="BUILD_TYPE"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html#ac601d0aad404455ab060ba9fe3149594"><param name="Name" value="com::smoke::detection::test::BuildConfig"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html"><param name="Name" value="BaseFragment class"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_base_fragment.html"><param name="Name" value="BaseFragment&lt; FragmentControlBinding &gt;"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_base_fragment.html#ga3faeb38cafe725693f19c92860320101"><param name="Name" value="onCreateView( @NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_base_fragment.html"><param name="Name" value="BaseFragment&lt; FragmentControlBinding &gt;"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_base_fragment.html#ga0a59783cc920d89e27e77c06bc892328"><param name="Name" value="onDestroyView()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_base_fragment.html"><param name="Name" value="BaseFragment&lt; FragmentDevicesBinding &gt;"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_base_fragment.html#ga3faeb38cafe725693f19c92860320101"><param name="Name" value="onCreateView( @NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_base_fragment.html"><param name="Name" value="BaseFragment&lt; FragmentDevicesBinding &gt;"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_base_fragment.html#ga0a59783cc920d89e27e77c06bc892328"><param name="Name" value="onDestroyView()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__bluetooth_device.html"><param name="Name" value="BluetoothDevice class"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="ControlFragment class"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#ad94635bc7c2332d8e6d169f0f9e2c575"><param name="Name" value="DEBUG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#ad94635bc7c2332d8e6d169f0f9e2c575"><param name="Name" value="com::smoke::detection::BuildConfig"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html#a55a15afb9b685d61a1e42e728e535bd8"><param name="Name" value="DEBUG"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html#a55a15afb9b685d61a1e42e728e535bd8"><param name="Name" value="com::smoke::detection::test::BuildConfig"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_adapter.html"><param name="Name" value="DevicesAdapter class"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html"><param name="Name" value="DevicesFragment class"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga6e09706342f6e4a2b032aec7fe699831"><param name="Name" value="DevicesViewHolder(@NonNull ItemDeviceBinding binding)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="MainActivity class"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#a7eb68ece74ad48d1d89026b674352cd2"><param name="Name" value="VERSION_CODE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#a0490f7388dc80a4459ac10d0ccb3d677"><param name="Name" value="VERSION_NAME"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_unit_test.html#a50af02050ac2540cbe41cb9c9d989625"><param name="Name" value="addition_isCorrect()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_control_fragment.html#ad3f29b7f3395f51d12feef0802ca35e2"><param name="Name" value="address"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a1693bc9a4754f6c0a87845062f3bcffc"><param name="Name" value="bDisconnect"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#aac901f1771c8b69f9a56fd2945e51e70"><param name="Name" value="bHome"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a09bb273ace00fd113be9c372f416efcb"><param name="Name" value="bRefresh"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#af06b690978c740558c6488fb4f611054"><param name="Name" value="bSearch"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html"><param name="Name" value="baseFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga3faeb38cafe725693f19c92860320101"><param name="Name" value="onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html"><param name="Name" value="baseFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga0a59783cc920d89e27e77c06bc892328"><param name="Name" value="onDestroyView()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#aea9022ea5798665a0ac3b37f2742fcf9"><param name="Name" value="bind(@NonNull View rootView)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#aea9022ea5798665a0ac3b37f2742fcf9"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a05a3950eeaedf79936dd63b51fb95963"><param name="Name" value="bind(@NonNull View rootView)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a05a3950eeaedf79936dd63b51fb95963"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#ade8b50b57b19bfe1042ba8690464f227"><param name="Name" value="bind(@NonNull View rootView)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#ade8b50b57b19bfe1042ba8690464f227"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a3b16089e9638b889fce7655ca1eb971f"><param name="Name" value="bind(@NonNull View rootView)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a3b16089e9638b889fce7655ca1eb971f"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gaa76ca62957faaf910b56a8a85b4fb476"><param name="Name" value="bind(ScanResult scanResult, ScanResult savedDevice)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__bluetooth_device.html"><param name="Name" value="bluetoothDevice"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__bluetooth_device.html#ga75e45a611868f79900fa09dc3f83aef3"><param name="Name" value="cBluetoothDevice(String name, String address)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__bluetooth_device.html"><param name="Name" value="bluetoothDevice"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__bluetooth_device.html#gaf390be85fb5810d13f9fa4e6c487c678"><param name="Name" value="getAddress()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__bluetooth_device.html"><param name="Name" value="bluetoothDevice"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__bluetooth_device.html#ga2f3f116c7cbbea29f9a56294b787888d"><param name="Name" value="getName()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__bluetooth_device.html#ga75e45a611868f79900fa09dc3f83aef3"><param name="Name" value="cBluetoothDevice(String name, String address)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecom_1_1smoke_1_1detection.html"><param name="Name" value="com::smoke::detection"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html"><param name="Name" value="com::smoke::detection::BuildConfig"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html"><param name="Name" value="com::smoke::detection::BuildConfig"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#adf4786847d018fd1ab45336b47061211"><param name="Name" value="APPLICATION_ID"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html"><param name="Name" value="com::smoke::detection::BuildConfig"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#a7394d7318d28b33791891eb9e928e936"><param name="Name" value="BUILD_TYPE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html"><param name="Name" value="com::smoke::detection::BuildConfig"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#ad94635bc7c2332d8e6d169f0f9e2c575"><param name="Name" value="DEBUG"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html"><param name="Name" value="com::smoke::detection::BuildConfig"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#a7eb68ece74ad48d1d89026b674352cd2"><param name="Name" value="VERSION_CODE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html"><param name="Name" value="com::smoke::detection::BuildConfig"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html#a0490f7388dc80a4459ac10d0ccb3d677"><param name="Name" value="VERSION_NAME"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_control_fragment.html"><param name="Name" value="com::smoke::detection::ControlFragment"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_control_fragment.html"><param name="Name" value="com::smoke::detection::ControlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_control_fragment.html#ad3f29b7f3395f51d12feef0802ca35e2"><param name="Name" value="address"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_devices_adapter.html"><param name="Name" value="com::smoke::detection::DevicesAdapter"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback.html"><param name="Name" value="com::smoke::detection::DevicesAdapter::Callback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback.html"><param name="Name" value="com::smoke::detection::DevicesAdapter::Callback"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback.html#a9ff36009e89778ea8962b4c960b231bb"><param name="Name" value="onItemClick(ScanResult device)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_devices_fragment.html"><param name="Name" value="com::smoke::detection::DevicesFragment"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_instrumented_test.html"><param name="Name" value="com::smoke::detection::ExampleInstrumentedTest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_instrumented_test.html"><param name="Name" value="com::smoke::detection::ExampleInstrumentedTest"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_instrumented_test.html#a260db22314821bfc7226807a3b445f69"><param name="Name" value="useAppContext()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_unit_test.html"><param name="Name" value="com::smoke::detection::ExampleUnitTest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_unit_test.html"><param name="Name" value="com::smoke::detection::ExampleUnitTest"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_unit_test.html#a50af02050ac2540cbe41cb9c9d989625"><param name="Name" value="addition_isCorrect()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_main_activity.html"><param name="Name" value="com::smoke::detection::MainActivity"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1c_bluetooth_device.html"><param name="Name" value="com::smoke::detection::cBluetoothDevice"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecom_1_1smoke_1_1detection_1_1databinding.html"><param name="Name" value="com::smoke::detection::databinding"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#aac901f1771c8b69f9a56fd2945e51e70"><param name="Name" value="bHome"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#af06b690978c740558c6488fb4f611054"><param name="Name" value="bSearch"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#aea9022ea5798665a0ac3b37f2742fcf9"><param name="Name" value="bind(@NonNull View rootView)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a2a147ca123651f7383d7c74c0c14692c"><param name="Name" value="containerFragment"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a277b23cd46e583fb471c8e4b0d846821"><param name="Name" value="cvConnectionStatus"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a03e2e5976bf4b666d9920bd06b64ef2c"><param name="Name" value="getRoot()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a89c6fa3728c6cacb2b99048cc6f81a80"><param name="Name" value="inflate(@NonNull LayoutInflater inflater)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#aea278cf55c95fadff61d25df3f3b44f6"><param name="Name" value="inflate(@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#abae2c9db28d9d5051c8d03da25e3ea0d"><param name="Name" value="lLogo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#ab18d28521099e753b93584f8f54e7d2f"><param name="Name" value="logs"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a05a3950eeaedf79936dd63b51fb95963"><param name="Name" value="bind(@NonNull View rootView)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a7a0f623f75b6d0eaa59ecdf6a8789009"><param name="Name" value="date"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#aeceaafadb83bd0ad17bfba28d6c426c6"><param name="Name" value="getRoot()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a7b7d9ff0c3d2da86a20554c5badec8eb"><param name="Name" value="inflate(@NonNull LayoutInflater inflater)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a2c028ac01e6a92a3ec8f60b55cf59741"><param name="Name" value="inflate(@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#ada4c4ae3dd8ded26d191265471eaa4d7"><param name="Name" value="ivAlert"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acf0e83c094edd155e7144457d3b5d023"><param name="Name" value="lastStatus"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acbfb34028a3e53130e2024bb65f59518"><param name="Name" value="neumorphCardView"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#aed49a62dfa2d599827aa2637d3811cc8"><param name="Name" value="status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acaebb7ddc604f97ed1213095f4b37829"><param name="Name" value="time"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a09bb273ace00fd113be9c372f416efcb"><param name="Name" value="bRefresh"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#ade8b50b57b19bfe1042ba8690464f227"><param name="Name" value="bind(@NonNull View rootView)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a363d81b47a2c827dabea33727c30ffd8"><param name="Name" value="getRoot()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a77e789a288264dc06bb9b6db23d26c1f"><param name="Name" value="inflate(@NonNull LayoutInflater inflater)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a7d5f177d99896a92ccb77c65a6ba50cf"><param name="Name" value="inflate(@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a18131d56d5a884e179333b4e610529fc"><param name="Name" value="rlDevice"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a5d3e80b0d82a5099ec3116c558593711"><param name="Name" value="rvDevicesRecycler"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a1693bc9a4754f6c0a87845062f3bcffc"><param name="Name" value="bDisconnect"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a3b16089e9638b889fce7655ca1eb971f"><param name="Name" value="bind(@NonNull View rootView)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2ee9cada7dadbeeed6d92f07e271cb66"><param name="Name" value="getRoot()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2f3a696bda360e8893e3b63da1b58fed"><param name="Name" value="inflate(@NonNull LayoutInflater inflater)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#acffe04d752e3f070914778796169e439"><param name="Name" value="inflate(@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2468754be8b4d72273052dde5f82de5f"><param name="Name" value="textAddress"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#ac574cfe45bbbf25ae587466e87e0c830"><param name="Name" value="textName"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a4c1e9492376a59fcae4b8f615f35d13f"><param name="Name" value="textRSSI"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecom_1_1smoke_1_1detection_1_1test.html"><param name="Name" value="com::smoke::detection::test"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html"><param name="Name" value="com::smoke::detection::test::BuildConfig"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html"><param name="Name" value="com::smoke::detection::test::BuildConfig"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html#a06e496a27512244b92e1cbbfc85f1c03"><param name="Name" value="APPLICATION_ID"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html"><param name="Name" value="com::smoke::detection::test::BuildConfig"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html#ac601d0aad404455ab060ba9fe3149594"><param name="Name" value="BUILD_TYPE"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html"><param name="Name" value="com::smoke::detection::test::BuildConfig"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html#a55a15afb9b685d61a1e42e728e535bd8"><param name="Name" value="DEBUG"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a2a147ca123651f7383d7c74c0c14692c"><param name="Name" value="containerFragment"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga6e09706342f6e4a2b032aec7fe699831"><param name="Name" value="DevicesViewHolder(@NonNull ItemDeviceBinding binding)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gaa76ca62957faaf910b56a8a85b4fb476"><param name="Name" value="bind(ScanResult scanResult, ScanResult savedDevice)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gaa131121cb453bcd5b22873f795ce17c4"><param name="Name" value="getItemCount()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gaf09f0eba534ea7a7a4186ab64e24c971"><param name="Name" value="newInstance()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gac10a8c2d522530935727c8ab4f42dd92"><param name="Name" value="newInstance(String address)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga363ce275fb27f6473152c693add1c671"><param name="Name" value="onBindViewHolder(@NonNull DevicesViewHolder holder, int position)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga27c739fde4185c25f30a0c94d6cb8f0a"><param name="Name" value="onCreate(Bundle savedInstanceState)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga807ad27c26a54db4610583e631afc6b8"><param name="Name" value="onCreateViewHolder(@NonNull ViewGroup parent, int viewType)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga0bcf8e82f134e5ab1de54350d29c17eb"><param name="Name" value="onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga2d383c8cc9f242520c9607cfb3e0bb81"><param name="Name" value="readCharacteristic(@NotNull BluetoothPeripheral peripheral, Boolean flag)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gac987ecf05c21eb4bddb8f04914a60f7a"><param name="Name" value="setCallback(Callback callback)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga0610d61733449223d7e635547f58da58"><param name="Name" value="setPicture(int drawable)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html"><param name="Name" value="controlFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gabd2d667dc80ec823eb62f74950c9490f"><param name="Name" value="update(List&lt; ScanResult &gt; items)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a277b23cd46e583fb471c8e4b0d846821"><param name="Name" value="cvConnectionStatus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a7a0f623f75b6d0eaa59ecdf6a8789009"><param name="Name" value="date"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html"><param name="Name" value="devicesFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#gaf18f063cb5c462215d6035056ddb672f"><param name="Name" value="disconnectPeripheral()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html"><param name="Name" value="devicesFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#gad9d73c25e0e71fd5a5ffa88ffa815989"><param name="Name" value="isConnected()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html"><param name="Name" value="devicesFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#ga3742956484728ebc756f3e4e45ab17b3"><param name="Name" value="onItemClick(ScanResult scanResult)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html"><param name="Name" value="devicesFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#gaeadbf3135b1d3b154b2936ef877a5e97"><param name="Name" value="onPause()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html"><param name="Name" value="devicesFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#ga56703c87294691d6c604a35f5920fece"><param name="Name" value="onResume()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html"><param name="Name" value="devicesFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#gaa92ff522fa123fc6b5a3083f0fcdecf6"><param name="Name" value="onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html"><param name="Name" value="devicesFragment"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#ga147a0774a0d4486f89ee20023b6b7474"><param name="Name" value="scanDevices()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#gaf18f063cb5c462215d6035056ddb672f"><param name="Name" value="disconnectPeripheral()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__bluetooth_device.html#gaf390be85fb5810d13f9fa4e6c487c678"><param name="Name" value="getAddress()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga47595a2a460aac3807bd0dbc29d15fdc"><param name="Name" value="getEditor()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga3022c5de722b3be2fb31af750706c791"><param name="Name" value="getHashMap()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga1ea8ab9e8bf2e46f64be87c9f0604a5b"><param name="Name" value="getIsConnected()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gaa131121cb453bcd5b22873f795ce17c4"><param name="Name" value="getItemCount()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__bluetooth_device.html#ga2f3f116c7cbbea29f9a56294b787888d"><param name="Name" value="getName()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a03e2e5976bf4b666d9920bd06b64ef2c"><param name="Name" value="getRoot()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a03e2e5976bf4b666d9920bd06b64ef2c"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#aeceaafadb83bd0ad17bfba28d6c426c6"><param name="Name" value="getRoot()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#aeceaafadb83bd0ad17bfba28d6c426c6"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a363d81b47a2c827dabea33727c30ffd8"><param name="Name" value="getRoot()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a363d81b47a2c827dabea33727c30ffd8"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2ee9cada7dadbeeed6d92f07e271cb66"><param name="Name" value="getRoot()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2ee9cada7dadbeeed6d92f07e271cb66"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga5c2601eb9da86bd3f07323ce59818ee4"><param name="Name" value="getSavedDevice()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#gaa7e273cf314b238b61ca96b1d110d4ba"><param name="Name" value="getToDisconnect()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a89c6fa3728c6cacb2b99048cc6f81a80"><param name="Name" value="inflate(@NonNull LayoutInflater inflater)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a89c6fa3728c6cacb2b99048cc6f81a80"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a7b7d9ff0c3d2da86a20554c5badec8eb"><param name="Name" value="inflate(@NonNull LayoutInflater inflater)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a7b7d9ff0c3d2da86a20554c5badec8eb"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a77e789a288264dc06bb9b6db23d26c1f"><param name="Name" value="inflate(@NonNull LayoutInflater inflater)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a77e789a288264dc06bb9b6db23d26c1f"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2f3a696bda360e8893e3b63da1b58fed"><param name="Name" value="inflate(@NonNull LayoutInflater inflater)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2f3a696bda360e8893e3b63da1b58fed"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#aea278cf55c95fadff61d25df3f3b44f6"><param name="Name" value="inflate(@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#aea278cf55c95fadff61d25df3f3b44f6"><param name="Name" value="com::smoke::detection::databinding::ActivityMainBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a2c028ac01e6a92a3ec8f60b55cf59741"><param name="Name" value="inflate(@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a2c028ac01e6a92a3ec8f60b55cf59741"><param name="Name" value="com::smoke::detection::databinding::FragmentControlBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a7d5f177d99896a92ccb77c65a6ba50cf"><param name="Name" value="inflate(@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a7d5f177d99896a92ccb77c65a6ba50cf"><param name="Name" value="com::smoke::detection::databinding::FragmentDevicesBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#acffe04d752e3f070914778796169e439"><param name="Name" value="inflate(@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#acffe04d752e3f070914778796169e439"><param name="Name" value="com::smoke::detection::databinding::ItemDeviceBinding"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#gad9d73c25e0e71fd5a5ffa88ffa815989"><param name="Name" value="isConnected()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#ada4c4ae3dd8ded26d191265471eaa4d7"><param name="Name" value="ivAlert"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#abae2c9db28d9d5051c8d03da25e3ea0d"><param name="Name" value="lLogo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acf0e83c094edd155e7144457d3b5d023"><param name="Name" value="lastStatus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#ab18d28521099e753b93584f8f54e7d2f"><param name="Name" value="logs"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="mainActivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga47595a2a460aac3807bd0dbc29d15fdc"><param name="Name" value="getEditor()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="mainActivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga3022c5de722b3be2fb31af750706c791"><param name="Name" value="getHashMap()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="mainActivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga1ea8ab9e8bf2e46f64be87c9f0604a5b"><param name="Name" value="getIsConnected()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="mainActivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga5c2601eb9da86bd3f07323ce59818ee4"><param name="Name" value="getSavedDevice()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="mainActivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#gaa7e273cf314b238b61ca96b1d110d4ba"><param name="Name" value="getToDisconnect()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="mainActivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga8d66ce016833a7de0e2bb4b5be2eec2f"><param name="Name" value="onCreate(@Nullable Bundle savedInstanceState)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="mainActivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga22e267c0c24462541e2a4c69c32b0c7a"><param name="Name" value="setHashMap(HashMap&lt; String, ScanResult &gt; items)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="mainActivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga4927d963580988aeac37d37691180524"><param name="Name" value="setIsConnected(Boolean flag)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="mainActivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga248554716942cbf23ef49b82c3ce0dff"><param name="Name" value="setSavedDevice(ScanResult item)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html"><param name="Name" value="mainActivity"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga3e992bcbbea215e98615781fa0145211"><param name="Name" value="setToDisconnect(Boolean flag)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acbfb34028a3e53130e2024bb65f59518"><param name="Name" value="neumorphCardView"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gaf09f0eba534ea7a7a4186ab64e24c971"><param name="Name" value="newInstance()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gac10a8c2d522530935727c8ab4f42dd92"><param name="Name" value="newInstance(String address)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga363ce275fb27f6473152c693add1c671"><param name="Name" value="onBindViewHolder(@NonNull DevicesViewHolder holder, int position)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga8d66ce016833a7de0e2bb4b5be2eec2f"><param name="Name" value="onCreate(@Nullable Bundle savedInstanceState)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga27c739fde4185c25f30a0c94d6cb8f0a"><param name="Name" value="onCreate(Bundle savedInstanceState)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga3faeb38cafe725693f19c92860320101"><param name="Name" value="onCreateView( @NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga3faeb38cafe725693f19c92860320101"><param name="Name" value="BaseFragment&lt; FragmentControlBinding &gt;"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga3faeb38cafe725693f19c92860320101"><param name="Name" value="onCreateView( @NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga3faeb38cafe725693f19c92860320101"><param name="Name" value="BaseFragment&lt; FragmentDevicesBinding &gt;"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga3faeb38cafe725693f19c92860320101"><param name="Name" value="onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga807ad27c26a54db4610583e631afc6b8"><param name="Name" value="onCreateViewHolder(@NonNull ViewGroup parent, int viewType)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga0a59783cc920d89e27e77c06bc892328"><param name="Name" value="onDestroyView()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga0a59783cc920d89e27e77c06bc892328"><param name="Name" value="BaseFragment&lt; FragmentControlBinding &gt;"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga0a59783cc920d89e27e77c06bc892328"><param name="Name" value="onDestroyView()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga0a59783cc920d89e27e77c06bc892328"><param name="Name" value="BaseFragment&lt; FragmentDevicesBinding &gt;"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga0a59783cc920d89e27e77c06bc892328"><param name="Name" value="onDestroyView()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__base_fragment.html#ga0a59783cc920d89e27e77c06bc892328"><param name="Name" value="baseFragment"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback.html#a9ff36009e89778ea8962b4c960b231bb"><param name="Name" value="onItemClick(ScanResult device)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#ga3742956484728ebc756f3e4e45ab17b3"><param name="Name" value="onItemClick(ScanResult scanResult)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#gaeadbf3135b1d3b154b2936ef877a5e97"><param name="Name" value="onPause()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#ga56703c87294691d6c604a35f5920fece"><param name="Name" value="onResume()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga0bcf8e82f134e5ab1de54350d29c17eb"><param name="Name" value="onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga0bcf8e82f134e5ab1de54350d29c17eb"><param name="Name" value="controlFragment"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#gaa92ff522fa123fc6b5a3083f0fcdecf6"><param name="Name" value="onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#gaa92ff522fa123fc6b5a3083f0fcdecf6"><param name="Name" value="devicesFragment"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga2d383c8cc9f242520c9607cfb3e0bb81"><param name="Name" value="readCharacteristic(@NotNull BluetoothPeripheral peripheral, Boolean flag)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a18131d56d5a884e179333b4e610529fc"><param name="Name" value="rlDevice"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a5d3e80b0d82a5099ec3116c558593711"><param name="Name" value="rvDevicesRecycler"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__devices_fragment.html#ga147a0774a0d4486f89ee20023b6b7474"><param name="Name" value="scanDevices()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gac987ecf05c21eb4bddb8f04914a60f7a"><param name="Name" value="setCallback(Callback callback)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga22e267c0c24462541e2a4c69c32b0c7a"><param name="Name" value="setHashMap(HashMap&lt; String, ScanResult &gt; items)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga4927d963580988aeac37d37691180524"><param name="Name" value="setIsConnected(Boolean flag)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#ga0610d61733449223d7e635547f58da58"><param name="Name" value="setPicture(int drawable)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga248554716942cbf23ef49b82c3ce0dff"><param name="Name" value="setSavedDevice(ScanResult item)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__main_activity.html#ga3e992bcbbea215e98615781fa0145211"><param name="Name" value="setToDisconnect(Boolean flag)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#aed49a62dfa2d599827aa2637d3811cc8"><param name="Name" value="status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2468754be8b4d72273052dde5f82de5f"><param name="Name" value="textAddress"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#ac574cfe45bbbf25ae587466e87e0c830"><param name="Name" value="textName"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a4c1e9492376a59fcae4b8f615f35d13f"><param name="Name" value="textRSSI"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acaebb7ddc604f97ed1213095f4b37829"><param name="Name" value="time"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__control_fragment.html#gabd2d667dc80ec823eb62f74950c9490f"><param name="Name" value="update(List&lt; ScanResult &gt; items)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_instrumented_test.html#a260db22314821bfc7226807a3b445f69"><param name="Name" value="useAppContext()"></OBJECT>
+</UL>
+</BODY>
+</HTML>

@@ -1,0 +1,258 @@
+\doxysection{Control\+Fragment class}
+\label{group__control_fragment}\index{ControlFragment class@{ControlFragment class}}
+
+
+Bluetooth device control fragment class.  
+
+
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries com.\+smoke.\+detection.\+Devices\+Adapter.\+Devices\+View\+Holder}
+\begin{DoxyCompactList}\small\item\em Device list clas. \end{DoxyCompactList}\item 
+interface \textbf{ com.\+smoke.\+detection.\+Devices\+Adapter.\+Callback}
+\begin{DoxyCompactList}\small\item\em Creating an interface to work with clicking on the line in the list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ com.\+smoke.\+detection.\+Control\+Fragment.\+on\+Create} (Bundle saved\+Instance\+State)
+\begin{DoxyCompactList}\small\item\em View creation method. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Control\+Fragment.\+on\+View\+Created} (@Non\+Null View view, @Nullable Bundle saved\+Instance\+State)
+\begin{DoxyCompactList}\small\item\em Method works when the fragment is created. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Control\+Fragment.\+set\+Picture} (int drawable)
+\begin{DoxyCompactList}\small\item\em Event picture update function. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Control\+Fragment.\+read\+Characteristic} (@Not\+Null Bluetooth\+Peripheral peripheral, Boolean flag)
+\begin{DoxyCompactList}\small\item\em Event picture update function. \end{DoxyCompactList}\item 
+static \textbf{ Control\+Fragment} \textbf{ com.\+smoke.\+detection.\+Control\+Fragment.\+new\+Instance} (String \textbf{ address})
+\begin{DoxyCompactList}\small\item\em The method works when you switch to this fragment. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Adapter.\+update} (List$<$ Scan\+Result $>$ items)
+\begin{DoxyCompactList}\small\item\em The method works by updating the list of found devices. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Adapter.\+set\+Callback} (\textbf{ Callback} callback)
+\begin{DoxyCompactList}\small\item\em Callback Assignment Method. \end{DoxyCompactList}\item 
+Devices\+View\+Holder \textbf{ com.\+smoke.\+detection.\+Devices\+Adapter.\+on\+Create\+View\+Holder} (@Non\+Null View\+Group parent, int view\+Type)
+\begin{DoxyCompactList}\small\item\em The method works by creating a list of devices on the fragment. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Adapter.\+on\+Bind\+View\+Holder} (@Non\+Null Devices\+View\+Holder holder, int position)
+\begin{DoxyCompactList}\small\item\em This method should update the contents of the Recycler\+View.\+View\+Holder.\+item\+View to reflect the item at the given position. \end{DoxyCompactList}\item 
+int \textbf{ com.\+smoke.\+detection.\+Devices\+Adapter.\+get\+Item\+Count} ()
+\begin{DoxyCompactList}\small\item\em Returns the total number of items in the data set held by the adapter. \end{DoxyCompactList}\item 
+\textbf{ com.\+smoke.\+detection.\+Devices\+Adapter.\+Devices\+View\+Holder.\+Devices\+View\+Holder} (@Non\+Null \textbf{ Item\+Device\+Binding} binding)
+\begin{DoxyCompactList}\small\item\em Class constructor. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Adapter.\+Devices\+View\+Holder.\+bind} (Scan\+Result scan\+Result, Scan\+Result saved\+Device)
+\begin{DoxyCompactList}\small\item\em Method of creating a line in the list. \end{DoxyCompactList}\item 
+static \textbf{ Devices\+Fragment} \textbf{ com.\+smoke.\+detection.\+Devices\+Fragment.\+new\+Instance} ()
+\begin{DoxyCompactList}\small\item\em The method works when you switch to this fragment. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Bluetooth device control fragment class. 
+
+
+
+\doxysubsection{Function Documentation}
+\label{group__control_fragment_gaa76ca62957faaf910b56a8a85b4fb476} 
+\index{ControlFragment class@{ControlFragment class}!bind@{bind}}
+\index{bind@{bind}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{bind()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Adapter.\+Devices\+View\+Holder.\+bind (\begin{DoxyParamCaption}\item[{Scan\+Result}]{scan\+Result,  }\item[{Scan\+Result}]{saved\+Device }\end{DoxyParamCaption})}
+
+
+
+Method of creating a line in the list. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em scan\+Result} & -\/ Device after finding \\
+\hline
+\mbox{\texttt{ in}}  & {\em saved\+Device} & -\/ Saved device already connected to \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_ga6e09706342f6e4a2b032aec7fe699831} 
+\index{ControlFragment class@{ControlFragment class}!DevicesViewHolder@{DevicesViewHolder}}
+\index{DevicesViewHolder@{DevicesViewHolder}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{DevicesViewHolder()}
+{\footnotesize\ttfamily com.\+smoke.\+detection.\+Devices\+Adapter.\+Devices\+View\+Holder.\+Devices\+View\+Holder (\begin{DoxyParamCaption}\item[{@Non\+Null \textbf{ Item\+Device\+Binding}}]{binding }\end{DoxyParamCaption})}
+
+
+
+Class constructor. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em binding} & -\/ Binding for simplified work with elements on the fragment \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_gaa131121cb453bcd5b22873f795ce17c4} 
+\index{ControlFragment class@{ControlFragment class}!getItemCount@{getItemCount}}
+\index{getItemCount@{getItemCount}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{getItemCount()}
+{\footnotesize\ttfamily int com.\+smoke.\+detection.\+Devices\+Adapter.\+get\+Item\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the total number of items in the data set held by the adapter. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em The} & total number of items in this adapter \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_gaf09f0eba534ea7a7a4186ab64e24c971} 
+\index{ControlFragment class@{ControlFragment class}!newInstance@{newInstance}}
+\index{newInstance@{newInstance}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{newInstance()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static \textbf{ Devices\+Fragment} com.\+smoke.\+detection.\+Devices\+Fragment.\+new\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The method works when you switch to this fragment. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em fragment} & -\/ Fragment data \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_gac10a8c2d522530935727c8ab4f42dd92} 
+\index{ControlFragment class@{ControlFragment class}!newInstance@{newInstance}}
+\index{newInstance@{newInstance}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{newInstance()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static \textbf{ Control\+Fragment} com.\+smoke.\+detection.\+Control\+Fragment.\+new\+Instance (\begin{DoxyParamCaption}\item[{String}]{address }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The method works when you switch to this fragment. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em address} & -\/ The address of the device to be connected \\
+\hline
+\mbox{\texttt{ out}}  & {\em fragment} & -\/ Fragment data \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_ga363ce275fb27f6473152c693add1c671} 
+\index{ControlFragment class@{ControlFragment class}!onBindViewHolder@{onBindViewHolder}}
+\index{onBindViewHolder@{onBindViewHolder}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{onBindViewHolder()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Adapter.\+on\+Bind\+View\+Holder (\begin{DoxyParamCaption}\item[{@Non\+Null Devices\+View\+Holder}]{holder,  }\item[{int}]{position }\end{DoxyParamCaption})}
+
+
+
+This method should update the contents of the Recycler\+View.\+View\+Holder.\+item\+View to reflect the item at the given position. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em holder} & – The View\+Holder which should be updated to represent the contents of the item at the given position in the data set \\
+\hline
+\mbox{\texttt{ in}}  & {\em position} & – The position of the item within the adapter\textquotesingle{}s data set \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_ga27c739fde4185c25f30a0c94d6cb8f0a} 
+\index{ControlFragment class@{ControlFragment class}!onCreate@{onCreate}}
+\index{onCreate@{onCreate}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{onCreate()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Control\+Fragment.\+on\+Create (\begin{DoxyParamCaption}\item[{Bundle}]{saved\+Instance\+State }\end{DoxyParamCaption})}
+
+
+
+View creation method. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em saved\+Instance\+State} & -\/ A mapping from String keys to various Parcelable values. \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_ga807ad27c26a54db4610583e631afc6b8} 
+\index{ControlFragment class@{ControlFragment class}!onCreateViewHolder@{onCreateViewHolder}}
+\index{onCreateViewHolder@{onCreateViewHolder}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{onCreateViewHolder()}
+{\footnotesize\ttfamily Devices\+View\+Holder com.\+smoke.\+detection.\+Devices\+Adapter.\+on\+Create\+View\+Holder (\begin{DoxyParamCaption}\item[{@Non\+Null View\+Group}]{parent,  }\item[{int}]{view\+Type }\end{DoxyParamCaption})}
+
+
+
+The method works by creating a list of devices on the fragment. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em parent} & – The View\+Group into which the new View will be added after it is bound to an adapter position \\
+\hline
+\mbox{\texttt{ in}}  & {\em view\+Type} & – The view type of the new View. \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_ga0bcf8e82f134e5ab1de54350d29c17eb} 
+\index{ControlFragment class@{ControlFragment class}!onViewCreated@{onViewCreated}}
+\index{onViewCreated@{onViewCreated}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{onViewCreated()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Control\+Fragment.\+on\+View\+Created (\begin{DoxyParamCaption}\item[{@Non\+Null View}]{view,  }\item[{@Nullable Bundle}]{saved\+Instance\+State }\end{DoxyParamCaption})}
+
+
+
+Method works when the fragment is created. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em view} & – The View returned by on\+Create\+View(\+Layout\+Inflater, View\+Group, Bundle) \\
+\hline
+\mbox{\texttt{ in}}  & {\em saved\+Instance\+State} & – If non-\/null, this fragment is being re-\/constructed from a previous saved state as given here. \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_ga2d383c8cc9f242520c9607cfb3e0bb81} 
+\index{ControlFragment class@{ControlFragment class}!readCharacteristic@{readCharacteristic}}
+\index{readCharacteristic@{readCharacteristic}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{readCharacteristic()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Control\+Fragment.\+read\+Characteristic (\begin{DoxyParamCaption}\item[{@Not\+Null Bluetooth\+Peripheral}]{peripheral,  }\item[{Boolean}]{flag }\end{DoxyParamCaption})}
+
+
+
+Event picture update function. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em peripheral} & -\/ Represents a remote Bluetooth peripheral and replaces Bluetooth\+Device and Bluetooth\+Gatt \\
+\hline
+\mbox{\texttt{ in}}  & {\em flag} & -\/ Enable or disable reading the characteristic \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_gac987ecf05c21eb4bddb8f04914a60f7a} 
+\index{ControlFragment class@{ControlFragment class}!setCallback@{setCallback}}
+\index{setCallback@{setCallback}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{setCallback()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Adapter.\+set\+Callback (\begin{DoxyParamCaption}\item[{\textbf{ Callback}}]{callback }\end{DoxyParamCaption})}
+
+
+
+Callback Assignment Method. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em callback} & -\/ Callback on clicking on a device in the list \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_ga0610d61733449223d7e635547f58da58} 
+\index{ControlFragment class@{ControlFragment class}!setPicture@{setPicture}}
+\index{setPicture@{setPicture}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{setPicture()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Control\+Fragment.\+set\+Picture (\begin{DoxyParamCaption}\item[{int}]{drawable }\end{DoxyParamCaption})}
+
+
+
+Event picture update function. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em drawable} & -\/ A picture of the event \\
+\hline
+\end{DoxyParams}
+\label{group__control_fragment_gabd2d667dc80ec823eb62f74950c9490f} 
+\index{ControlFragment class@{ControlFragment class}!update@{update}}
+\index{update@{update}!ControlFragment class@{ControlFragment class}}
+\doxysubsubsection{update()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Adapter.\+update (\begin{DoxyParamCaption}\item[{List$<$ Scan\+Result $>$}]{items }\end{DoxyParamCaption})}
+
+
+
+The method works by updating the list of found devices. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em items} & -\/ List of found devices \\
+\hline
+\end{DoxyParams}

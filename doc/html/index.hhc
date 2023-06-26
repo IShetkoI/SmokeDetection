@@ -1,0 +1,473 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Modules"><param name="Local" value="modules.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="BaseFragment class"><param name="Local" value="group__base_fragment.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.BaseFragment.onCreateView"><param name="Local" value="group__base_fragment.html#ga3faeb38cafe725693f19c92860320101"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.BaseFragment.onDestroyView"><param name="Local" value="group__base_fragment.html#ga0a59783cc920d89e27e77c06bc892328"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="BluetoothDevice class"><param name="Local" value="group__bluetooth_device.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.cBluetoothDevice.cBluetoothDevice"><param name="Local" value="group__bluetooth_device.html#ga75e45a611868f79900fa09dc3f83aef3"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.cBluetoothDevice.getAddress"><param name="Local" value="group__bluetooth_device.html#gaf390be85fb5810d13f9fa4e6c487c678"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.cBluetoothDevice.getName"><param name="Local" value="group__bluetooth_device.html#ga2f3f116c7cbbea29f9a56294b787888d"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="ControlFragment class"><param name="Local" value="group__control_fragment.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter.Callback"><param name="Local" value="interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="onItemClick"><param name="Local" value="interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback.html#a9ff36009e89778ea8962b4c960b231bb"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter.DevicesViewHolder.bind"><param name="Local" value="group__control_fragment.html#gaa76ca62957faaf910b56a8a85b4fb476"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter.DevicesViewHolder.DevicesViewHolder"><param name="Local" value="group__control_fragment.html#ga6e09706342f6e4a2b032aec7fe699831"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter.getItemCount"><param name="Local" value="group__control_fragment.html#gaa131121cb453bcd5b22873f795ce17c4"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesFragment.newInstance"><param name="Local" value="group__control_fragment.html#gaf09f0eba534ea7a7a4186ab64e24c971"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.ControlFragment.newInstance"><param name="Local" value="group__control_fragment.html#gac10a8c2d522530935727c8ab4f42dd92"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter.onBindViewHolder"><param name="Local" value="group__control_fragment.html#ga363ce275fb27f6473152c693add1c671"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.ControlFragment.onCreate"><param name="Local" value="group__control_fragment.html#ga27c739fde4185c25f30a0c94d6cb8f0a"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter.onCreateViewHolder"><param name="Local" value="group__control_fragment.html#ga807ad27c26a54db4610583e631afc6b8"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.ControlFragment.onViewCreated"><param name="Local" value="group__control_fragment.html#ga0bcf8e82f134e5ab1de54350d29c17eb"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.ControlFragment.readCharacteristic"><param name="Local" value="group__control_fragment.html#ga2d383c8cc9f242520c9607cfb3e0bb81"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter.setCallback"><param name="Local" value="group__control_fragment.html#gac987ecf05c21eb4bddb8f04914a60f7a"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.ControlFragment.setPicture"><param name="Local" value="group__control_fragment.html#ga0610d61733449223d7e635547f58da58"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter.update"><param name="Local" value="group__control_fragment.html#gabd2d667dc80ec823eb62f74950c9490f"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="DevicesAdapter class"><param name="Local" value="group__devices_adapter.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="DevicesFragment class"><param name="Local" value="group__devices_fragment.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesFragment.disconnectPeripheral"><param name="Local" value="group__devices_fragment.html#gaf18f063cb5c462215d6035056ddb672f"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesFragment.isConnected"><param name="Local" value="group__devices_fragment.html#gad9d73c25e0e71fd5a5ffa88ffa815989"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesFragment.onItemClick"><param name="Local" value="group__devices_fragment.html#ga3742956484728ebc756f3e4e45ab17b3"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesFragment.onPause"><param name="Local" value="group__devices_fragment.html#gaeadbf3135b1d3b154b2936ef877a5e97"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesFragment.onResume"><param name="Local" value="group__devices_fragment.html#ga56703c87294691d6c604a35f5920fece"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesFragment.onViewCreated"><param name="Local" value="group__devices_fragment.html#gaa92ff522fa123fc6b5a3083f0fcdecf6"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesFragment.scanDevices"><param name="Local" value="group__devices_fragment.html#ga147a0774a0d4486f89ee20023b6b7474"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="MainActivity class"><param name="Local" value="group__main_activity.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity.getEditor"><param name="Local" value="group__main_activity.html#ga47595a2a460aac3807bd0dbc29d15fdc"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity.getHashMap"><param name="Local" value="group__main_activity.html#ga3022c5de722b3be2fb31af750706c791"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity.getIsConnected"><param name="Local" value="group__main_activity.html#ga1ea8ab9e8bf2e46f64be87c9f0604a5b"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity.getSavedDevice"><param name="Local" value="group__main_activity.html#ga5c2601eb9da86bd3f07323ce59818ee4"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity.getToDisconnect"><param name="Local" value="group__main_activity.html#gaa7e273cf314b238b61ca96b1d110d4ba"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity.onCreate"><param name="Local" value="group__main_activity.html#ga8d66ce016833a7de0e2bb4b5be2eec2f"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity.setHashMap"><param name="Local" value="group__main_activity.html#ga22e267c0c24462541e2a4c69c32b0c7a"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity.setIsConnected"><param name="Local" value="group__main_activity.html#ga4927d963580988aeac37d37691180524"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity.setSavedDevice"><param name="Local" value="group__main_activity.html#ga248554716942cbf23ef49b82c3ce0dff"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity.setToDisconnect"><param name="Local" value="group__main_activity.html#ga3e992bcbbea215e98615781fa0145211"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Packages"><param name="Local" value="namespaces.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Package List"><param name="Local" value="namespaces.html#top"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Classes"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html#top"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="smoke"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="detection"><param name="Local" value="namespacecom_1_1smoke_1_1detection.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="databinding"><param name="Local" value="namespacecom_1_1smoke_1_1detection_1_1databinding.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ActivityMainBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getRoot"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a03e2e5976bf4b666d9920bd06b64ef2c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="bHome"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#aac901f1771c8b69f9a56fd2945e51e70"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="bSearch"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#af06b690978c740558c6488fb4f611054"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="containerFragment"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a2a147ca123651f7383d7c74c0c14692c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="cvConnectionStatus"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a277b23cd46e583fb471c8e4b0d846821"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="lLogo"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#abae2c9db28d9d5051c8d03da25e3ea0d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="logs"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#ab18d28521099e753b93584f8f54e7d2f"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FragmentControlBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getRoot"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#aeceaafadb83bd0ad17bfba28d6c426c6"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="date"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a7a0f623f75b6d0eaa59ecdf6a8789009"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="ivAlert"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#ada4c4ae3dd8ded26d191265471eaa4d7"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="lastStatus"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acf0e83c094edd155e7144457d3b5d023"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="neumorphCardView"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acbfb34028a3e53130e2024bb65f59518"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="status"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#aed49a62dfa2d599827aa2637d3811cc8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="time"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acaebb7ddc604f97ed1213095f4b37829"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FragmentDevicesBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getRoot"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a363d81b47a2c827dabea33727c30ffd8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="bRefresh"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a09bb273ace00fd113be9c372f416efcb"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="rlDevice"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a18131d56d5a884e179333b4e610529fc"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="rvDevicesRecycler"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a5d3e80b0d82a5099ec3116c558593711"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="ItemDeviceBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getRoot"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2ee9cada7dadbeeed6d92f07e271cb66"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="bDisconnect"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a1693bc9a4754f6c0a87845062f3bcffc"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="textAddress"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2468754be8b4d72273052dde5f82de5f"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="textName"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#ac574cfe45bbbf25ae587466e87e0c830"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="textRSSI"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a4c1e9492376a59fcae4b8f615f35d13f"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="test"><param name="Local" value="namespacecom_1_1smoke_1_1detection_1_1test.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildConfig"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildConfig"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="cBluetoothDevice"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1c_bluetooth_device.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="cBluetoothDevice"><param name="Local" value="group__bluetooth_device.html#ga75e45a611868f79900fa09dc3f83aef3"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="getAddress"><param name="Local" value="group__bluetooth_device.html#gaf390be85fb5810d13f9fa4e6c487c678"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="getName"><param name="Local" value="group__bluetooth_device.html#ga2f3f116c7cbbea29f9a56294b787888d"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ControlFragment"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_control_fragment.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="onCreate"><param name="Local" value="group__control_fragment.html#ga27c739fde4185c25f30a0c94d6cb8f0a"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="onViewCreated"><param name="Local" value="group__control_fragment.html#ga0bcf8e82f134e5ab1de54350d29c17eb"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="readCharacteristic"><param name="Local" value="group__control_fragment.html#ga2d383c8cc9f242520c9607cfb3e0bb81"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="setPicture"><param name="Local" value="group__control_fragment.html#ga0610d61733449223d7e635547f58da58"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="address"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_control_fragment.html#ad3f29b7f3395f51d12feef0802ca35e2"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DevicesAdapter"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_devices_adapter.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="getItemCount"><param name="Local" value="group__control_fragment.html#gaa131121cb453bcd5b22873f795ce17c4"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="onBindViewHolder"><param name="Local" value="group__control_fragment.html#ga363ce275fb27f6473152c693add1c671"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="onCreateViewHolder"><param name="Local" value="group__control_fragment.html#ga807ad27c26a54db4610583e631afc6b8"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="setCallback"><param name="Local" value="group__control_fragment.html#gac987ecf05c21eb4bddb8f04914a60f7a"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="update"><param name="Local" value="group__control_fragment.html#gabd2d667dc80ec823eb62f74950c9490f"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="DevicesFragment"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_devices_fragment.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="disconnectPeripheral"><param name="Local" value="group__devices_fragment.html#gaf18f063cb5c462215d6035056ddb672f"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="isConnected"><param name="Local" value="group__devices_fragment.html#gad9d73c25e0e71fd5a5ffa88ffa815989"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="onItemClick"><param name="Local" value="group__devices_fragment.html#ga3742956484728ebc756f3e4e45ab17b3"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="onPause"><param name="Local" value="group__devices_fragment.html#gaeadbf3135b1d3b154b2936ef877a5e97"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="onResume"><param name="Local" value="group__devices_fragment.html#ga56703c87294691d6c604a35f5920fece"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="onViewCreated"><param name="Local" value="group__devices_fragment.html#gaa92ff522fa123fc6b5a3083f0fcdecf6"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="scanDevices"><param name="Local" value="group__devices_fragment.html#ga147a0774a0d4486f89ee20023b6b7474"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ExampleInstrumentedTest"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_instrumented_test.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="useAppContext"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_instrumented_test.html#a260db22314821bfc7226807a3b445f69"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="ExampleUnitTest"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_unit_test.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="addition_isCorrect"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_unit_test.html#a50af02050ac2540cbe41cb9c9d989625"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="MainActivity"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_main_activity.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="getEditor"><param name="Local" value="group__main_activity.html#ga47595a2a460aac3807bd0dbc29d15fdc"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="getHashMap"><param name="Local" value="group__main_activity.html#ga3022c5de722b3be2fb31af750706c791"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="getIsConnected"><param name="Local" value="group__main_activity.html#ga1ea8ab9e8bf2e46f64be87c9f0604a5b"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="onCreate"><param name="Local" value="group__main_activity.html#ga8d66ce016833a7de0e2bb4b5be2eec2f"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="setHashMap"><param name="Local" value="group__main_activity.html#ga22e267c0c24462541e2a4c69c32b0c7a"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="setIsConnected"><param name="Local" value="group__main_activity.html#ga4927d963580988aeac37d37691180524"><param name="ImageNumber" value="11"></OBJECT>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="setSavedDevice"><param name="Local" value="group__main_activity.html#ga248554716942cbf23ef49b82c3ce0dff"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Hierarchy"><param name="Local" value="hierarchy.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="RecyclerView.Adapter"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_devices_adapter.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.BuildConfig"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.test.BuildConfig"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter.Callback"><param name="Local" value="interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesFragment"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_devices_fragment.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.cBluetoothDevice"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1c_bluetooth_device.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.ExampleInstrumentedTest"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_instrumented_test.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.ExampleUnitTest"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_unit_test.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="AppCompatActivity"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_main_activity.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Fragment"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ViewBinding"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.databinding.ActivityMainBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.databinding.FragmentControlBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.databinding.FragmentDevicesBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.databinding.ItemDeviceBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Members"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="functions.html#top"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="functions_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Variables"><param name="Local" value="functions_vars.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html#top"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="app"><param name="Local" value="dir_d422163b96683743ed3963d4aac17747.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="build"><param name="Local" value="dir_a33ac1ae0454e588808c82e859e6db1a.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="generated"><param name="Local" value="dir_53ef20f06edd99d8663534bda6232cd5.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="data_binding_base_class_source_out"><param name="Local" value="dir_e2e5db6cce08ddf12af26b2d3a4e3971.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="debug"><param name="Local" value="dir_56d8ad77c83b816e1635fa85377753e3.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="out"><param name="Local" value="dir_e910bfc1d7bc7a105c09a7ed76eb7244.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="com"><param name="Local" value="dir_9af472e68a8d6afe478f521029dc93d8.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="smoke"><param name="Local" value="dir_f11520d36f495d3e59c9d316c38c42ee.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="detection"><param name="Local" value="dir_cc1233e27977536ce54bf573b84e1601.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="databinding"><param name="Local" value="dir_e047b27af3468793978ccc21628038c5.html"><param name="ImageNumber" value="1"></OBJECT>
+                        <UL>
+                        <LI><OBJECT type="text/sitemap"><param name="Name" value="ActivityMainBinding.java"><param name="Local" value="_activity_main_binding_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                          <UL>
+                          <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.databinding.ActivityMainBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html"><param name="ImageNumber" value="1"></OBJECT>
+                            <UL>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="getRoot"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a03e2e5976bf4b666d9920bd06b64ef2c"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="bHome"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#aac901f1771c8b69f9a56fd2945e51e70"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="bSearch"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#af06b690978c740558c6488fb4f611054"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="containerFragment"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a2a147ca123651f7383d7c74c0c14692c"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="cvConnectionStatus"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#a277b23cd46e583fb471c8e4b0d846821"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="lLogo"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#abae2c9db28d9d5051c8d03da25e3ea0d"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="logs"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.html#ab18d28521099e753b93584f8f54e7d2f"><param name="ImageNumber" value="11"></OBJECT>
+                            </UL>
+                          </UL>
+                        <LI><OBJECT type="text/sitemap"><param name="Name" value="FragmentControlBinding.java"><param name="Local" value="_fragment_control_binding_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                          <UL>
+                          <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.databinding.FragmentControlBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html"><param name="ImageNumber" value="1"></OBJECT>
+                            <UL>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="getRoot"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#aeceaafadb83bd0ad17bfba28d6c426c6"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="date"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#a7a0f623f75b6d0eaa59ecdf6a8789009"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="ivAlert"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#ada4c4ae3dd8ded26d191265471eaa4d7"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="lastStatus"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acf0e83c094edd155e7144457d3b5d023"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="neumorphCardView"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acbfb34028a3e53130e2024bb65f59518"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="status"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#aed49a62dfa2d599827aa2637d3811cc8"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="time"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_control_binding.html#acaebb7ddc604f97ed1213095f4b37829"><param name="ImageNumber" value="11"></OBJECT>
+                            </UL>
+                          </UL>
+                        <LI><OBJECT type="text/sitemap"><param name="Name" value="FragmentDevicesBinding.java"><param name="Local" value="_fragment_devices_binding_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                          <UL>
+                          <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.databinding.FragmentDevicesBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html"><param name="ImageNumber" value="1"></OBJECT>
+                            <UL>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="getRoot"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a363d81b47a2c827dabea33727c30ffd8"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="bRefresh"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a09bb273ace00fd113be9c372f416efcb"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="rlDevice"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a18131d56d5a884e179333b4e610529fc"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="rvDevicesRecycler"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_fragment_devices_binding.html#a5d3e80b0d82a5099ec3116c558593711"><param name="ImageNumber" value="11"></OBJECT>
+                            </UL>
+                          </UL>
+                        <LI><OBJECT type="text/sitemap"><param name="Name" value="ItemDeviceBinding.java"><param name="Local" value="_item_device_binding_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                          <UL>
+                          <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.databinding.ItemDeviceBinding"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html"><param name="ImageNumber" value="1"></OBJECT>
+                            <UL>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="getRoot"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2ee9cada7dadbeeed6d92f07e271cb66"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="bDisconnect"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a1693bc9a4754f6c0a87845062f3bcffc"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="textAddress"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a2468754be8b4d72273052dde5f82de5f"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="textName"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#ac574cfe45bbbf25ae587466e87e0c830"><param name="ImageNumber" value="11"></OBJECT>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="textRSSI"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1databinding_1_1_item_device_binding.html#a4c1e9492376a59fcae4b8f615f35d13f"><param name="ImageNumber" value="11"></OBJECT>
+                            </UL>
+                          </UL>
+                        </UL>
+                      </UL>
+                    </UL>
+                  </UL>
+                </UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="source"><param name="Local" value="dir_33ebe39f2fa97f98ec8e0e0b1c55a84f.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="buildConfig"><param name="Local" value="dir_2932b73aeda593be1656e282063ce3a5.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="androidTest"><param name="Local" value="dir_5a9341f976829bf33e71b44d0599b185.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="debug"><param name="Local" value="dir_d4b71b3bd8de159ac70bc2497aedd211.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="com"><param name="Local" value="dir_c96f07d47db26ae81826d615c5866626.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="smoke"><param name="Local" value="dir_a0952fe6c908ca5968ff9025d6ce7ed3.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="detection"><param name="Local" value="dir_83a12dfada8a3cfe42bb3ac5b94a9dbc.html"><param name="ImageNumber" value="1"></OBJECT>
+                        <UL>
+                        <LI><OBJECT type="text/sitemap"><param name="Name" value="test"><param name="Local" value="dir_70fa0c1eeda4c3a8a35d535bf99ecc48.html"><param name="ImageNumber" value="1"></OBJECT>
+                          <UL>
+                          <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildConfig.java"><param name="Local" value="android_test_2debug_2com_2smoke_2detection_2test_2_build_config_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                            <UL>
+                            <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.test.BuildConfig"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1test_1_1_build_config.html"><param name="ImageNumber" value="1"></OBJECT>
+                              <UL>
+                              </UL>
+                            </UL>
+                          </UL>
+                        </UL>
+                      </UL>
+                    </UL>
+                  </UL>
+                </UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="debug"><param name="Local" value="dir_2fff6f08598ce93bef2c7824b4a19591.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="com"><param name="Local" value="dir_be65c171a4a4b73a8d2824b7fedfd36c.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="smoke"><param name="Local" value="dir_8588ce6b4a2916141958f3eeffc93caf.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="detection"><param name="Local" value="dir_900499763edb72a2e873b816579e826e.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="BuildConfig.java"><param name="Local" value="debug_2com_2smoke_2detection_2_build_config_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                        <UL>
+                        <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.BuildConfig"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_build_config.html"><param name="ImageNumber" value="1"></OBJECT>
+                          <UL>
+                          </UL>
+                        </UL>
+                      </UL>
+                    </UL>
+                  </UL>
+                </UL>
+              </UL>
+            </UL>
+          </UL>
+        </UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_a8f641299cfea9f7461c2df1141b7786.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="androidTest"><param name="Local" value="dir_8c1e2b4821511c730cb8b244d04a4fcf.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="java"><param name="Local" value="dir_c033f731660b9b391579f1e04611dca1.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="com"><param name="Local" value="dir_5c4d4cd2cac429a594c6bd21fe4f7d64.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="smoke"><param name="Local" value="dir_9649775f0b4b354ef0d3c335bfad3857.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="detection"><param name="Local" value="dir_00334abec5f91e5b454bd2107ca00959.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="ExampleInstrumentedTest.java"><param name="Local" value="_example_instrumented_test_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.ExampleInstrumentedTest"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_instrumented_test.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="useAppContext"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_instrumented_test.html#a260db22314821bfc7226807a3b445f69"><param name="ImageNumber" value="11"></OBJECT>
+                      </UL>
+                    </UL>
+                  </UL>
+                </UL>
+              </UL>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="main"><param name="Local" value="dir_82a1580e18717db72c05fda59883f1c3.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="java"><param name="Local" value="dir_29a654fef9ee522348956763c377cb52.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="com"><param name="Local" value="dir_520f01a69ba2ae0241ea16752726d997.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="smoke"><param name="Local" value="dir_82c0303302fe1e1bb0bfedbd6932fbe6.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="detection"><param name="Local" value="dir_69c1e7000983f769777d6699a069428d.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="BaseFragment.java"><param name="Local" value="_base_fragment_8java.html"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="cBluetoothDevice.java"><param name="Local" value="c_bluetooth_device_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.cBluetoothDevice"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1c_bluetooth_device.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="cBluetoothDevice"><param name="Local" value="group__bluetooth_device.html#ga75e45a611868f79900fa09dc3f83aef3"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="getAddress"><param name="Local" value="group__bluetooth_device.html#gaf390be85fb5810d13f9fa4e6c487c678"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="getName"><param name="Local" value="group__bluetooth_device.html#ga2f3f116c7cbbea29f9a56294b787888d"><param name="ImageNumber" value="11"></OBJECT>
+                      </UL>
+                    </UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="ControlFragment.java"><param name="Local" value="_control_fragment_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.ControlFragment"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_control_fragment.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="onCreate"><param name="Local" value="group__control_fragment.html#ga27c739fde4185c25f30a0c94d6cb8f0a"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="onViewCreated"><param name="Local" value="group__control_fragment.html#ga0bcf8e82f134e5ab1de54350d29c17eb"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="readCharacteristic"><param name="Local" value="group__control_fragment.html#ga2d383c8cc9f242520c9607cfb3e0bb81"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="setPicture"><param name="Local" value="group__control_fragment.html#ga0610d61733449223d7e635547f58da58"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="address"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_control_fragment.html#ad3f29b7f3395f51d12feef0802ca35e2"><param name="ImageNumber" value="11"></OBJECT>
+                      </UL>
+                    </UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="DevicesAdapter.java"><param name="Local" value="_devices_adapter_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesAdapter"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_devices_adapter.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="getItemCount"><param name="Local" value="group__control_fragment.html#gaa131121cb453bcd5b22873f795ce17c4"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="onBindViewHolder"><param name="Local" value="group__control_fragment.html#ga363ce275fb27f6473152c693add1c671"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="onCreateViewHolder"><param name="Local" value="group__control_fragment.html#ga807ad27c26a54db4610583e631afc6b8"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="setCallback"><param name="Local" value="group__control_fragment.html#gac987ecf05c21eb4bddb8f04914a60f7a"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="update"><param name="Local" value="group__control_fragment.html#gabd2d667dc80ec823eb62f74950c9490f"><param name="ImageNumber" value="11"></OBJECT>
+                      </UL>
+                    </UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="DevicesFragment.java"><param name="Local" value="_devices_fragment_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.DevicesFragment"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_devices_fragment.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="disconnectPeripheral"><param name="Local" value="group__devices_fragment.html#gaf18f063cb5c462215d6035056ddb672f"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="isConnected"><param name="Local" value="group__devices_fragment.html#gad9d73c25e0e71fd5a5ffa88ffa815989"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="onItemClick"><param name="Local" value="group__devices_fragment.html#ga3742956484728ebc756f3e4e45ab17b3"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="onPause"><param name="Local" value="group__devices_fragment.html#gaeadbf3135b1d3b154b2936ef877a5e97"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="onResume"><param name="Local" value="group__devices_fragment.html#ga56703c87294691d6c604a35f5920fece"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="onViewCreated"><param name="Local" value="group__devices_fragment.html#gaa92ff522fa123fc6b5a3083f0fcdecf6"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="scanDevices"><param name="Local" value="group__devices_fragment.html#ga147a0774a0d4486f89ee20023b6b7474"><param name="ImageNumber" value="11"></OBJECT>
+                      </UL>
+                    </UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="MainActivity.java"><param name="Local" value="_main_activity_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.MainActivity"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_main_activity.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="getEditor"><param name="Local" value="group__main_activity.html#ga47595a2a460aac3807bd0dbc29d15fdc"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="getHashMap"><param name="Local" value="group__main_activity.html#ga3022c5de722b3be2fb31af750706c791"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="getIsConnected"><param name="Local" value="group__main_activity.html#ga1ea8ab9e8bf2e46f64be87c9f0604a5b"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="onCreate"><param name="Local" value="group__main_activity.html#ga8d66ce016833a7de0e2bb4b5be2eec2f"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="setHashMap"><param name="Local" value="group__main_activity.html#ga22e267c0c24462541e2a4c69c32b0c7a"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="setIsConnected"><param name="Local" value="group__main_activity.html#ga4927d963580988aeac37d37691180524"><param name="ImageNumber" value="11"></OBJECT>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="setSavedDevice"><param name="Local" value="group__main_activity.html#ga248554716942cbf23ef49b82c3ce0dff"><param name="ImageNumber" value="11"></OBJECT>
+                      </UL>
+                    </UL>
+                  </UL>
+                </UL>
+              </UL>
+            </UL>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="test"><param name="Local" value="dir_86bcc0514dca1a2ed8a9daa573cbbe51.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="java"><param name="Local" value="dir_0a815a8e140767ae87ad5ba425254729.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="com"><param name="Local" value="dir_703ff04e00f4f9cf36dd63bdd107c781.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="smoke"><param name="Local" value="dir_1158641dd62fa02e6da38c1ac7ee554f.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="detection"><param name="Local" value="dir_669e40971c8b747fc1af80972bf20f6c.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="ExampleUnitTest.java"><param name="Local" value="_example_unit_test_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.smoke.detection.ExampleUnitTest"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_unit_test.html"><param name="ImageNumber" value="1"></OBJECT>
+                      <UL>
+                      <LI><OBJECT type="text/sitemap"><param name="Name" value="addition_isCorrect"><param name="Local" value="classcom_1_1smoke_1_1detection_1_1_example_unit_test.html#a50af02050ac2540cbe41cb9c9d989625"><param name="ImageNumber" value="11"></OBJECT>
+                      </UL>
+                    </UL>
+                  </UL>
+                </UL>
+              </UL>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

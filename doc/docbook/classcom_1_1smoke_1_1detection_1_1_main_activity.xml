@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1smoke_1_1detection_1_1_main_activity" xml:lang="en-US">
+<title>com.smoke.detection.MainActivity Class Reference</title>
+<indexterm><primary>com.smoke.detection.MainActivity</primary></indexterm>
+<para>Inheritance diagram for com.smoke.detection.MainActivity:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1smoke_1_1detection_1_1_main_activity.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>SharedPreferences <link linkend="_group__main_activity_1ga47595a2a460aac3807bd0dbc29d15fdc">getEditor</link> ()</para>
+
+<para>Function to access storage from fragments. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__main_activity_1ga22e267c0c24462541e2a4c69c32b0c7a">setHashMap</link> (HashMap&lt; String, ScanResult &gt; items)</para>
+
+<para>Function for saving the list of found devices. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__main_activity_1ga248554716942cbf23ef49b82c3ce0dff">setSavedDevice</link> (ScanResult item)</para>
+
+<para>Function for saving the data of a connected device. </para>
+</listitem>
+            <listitem><para>HashMap&lt; String, ScanResult &gt; <link linkend="_group__main_activity_1ga3022c5de722b3be2fb31af750706c791">getHashMap</link> ()</para>
+
+<para>Function for getting the list of found devices. </para>
+</listitem>
+            <listitem><para>void <link linkend="_group__main_activity_1ga4927d963580988aeac37d37691180524">setIsConnected</link> (Boolean flag)</para>
+
+<para>Function for saving the connection status of the device. </para>
+</listitem>
+            <listitem><para>Boolean <link linkend="_group__main_activity_1ga1ea8ab9e8bf2e46f64be87c9f0604a5b">getIsConnected</link> ()</para>
+
+<para>Function to get the connection status of the device. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static ScanResult <link linkend="_group__main_activity_1ga5c2601eb9da86bd3f07323ce59818ee4">getSavedDevice</link> ()</para>
+
+<para>Function for retrieving data from a connected device. </para>
+</listitem>
+            <listitem><para>static void <link linkend="_group__main_activity_1ga3e992bcbbea215e98615781fa0145211">setToDisconnect</link> (Boolean flag)</para>
+
+<para>Function to save the status on the device disconnection. </para>
+</listitem>
+            <listitem><para>static Boolean <link linkend="_group__main_activity_1gaa7e273cf314b238b61ca96b1d110d4ba">getToDisconnect</link> ()</para>
+
+<para>Function for receiving status to disconnect the device. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_group__main_activity_1ga8d66ce016833a7de0e2bb4b5be2eec2f">onCreate</link> (@Nullable Bundle savedInstanceState)</para>
+
+<para>The method is called when the activity is first created. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/src/main/java/com/smoke/detection/<link linkend="__main_activity_8java">MainActivity.java</link></section>

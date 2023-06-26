@@ -1,0 +1,118 @@
+\doxysection{Devices\+Fragment class}
+\label{group__devices_fragment}\index{DevicesFragment class@{DevicesFragment class}}
+
+
+The fragment class with the list of found devices.  
+
+
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Fragment.\+on\+View\+Created} (@Non\+Null View view, @Nullable Bundle saved\+Instance\+State)
+\begin{DoxyCompactList}\small\item\em Method works when the fragment is created. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Fragment.\+scan\+Devices} ()
+\begin{DoxyCompactList}\small\item\em New device search function. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Fragment.\+on\+Pause} ()
+\begin{DoxyCompactList}\small\item\em Called when the Fragment is no longer resumed. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Fragment.\+on\+Resume} ()
+\begin{DoxyCompactList}\small\item\em Called when the fragment is visible to the user and actively running. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Fragment.\+is\+Connected} ()
+\begin{DoxyCompactList}\small\item\em Function to check if the device needs to be disconnected. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Fragment.\+disconnect\+Peripheral} ()
+\begin{DoxyCompactList}\small\item\em Device disconnection function. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Devices\+Fragment.\+on\+Item\+Click} (Scan\+Result scan\+Result)
+\begin{DoxyCompactList}\small\item\em Function for processing a click on the line in the device list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The fragment class with the list of found devices. 
+
+
+
+\doxysubsection{Function Documentation}
+\label{group__devices_fragment_gaf18f063cb5c462215d6035056ddb672f} 
+\index{DevicesFragment class@{DevicesFragment class}!disconnectPeripheral@{disconnectPeripheral}}
+\index{disconnectPeripheral@{disconnectPeripheral}!DevicesFragment class@{DevicesFragment class}}
+\doxysubsubsection{disconnectPeripheral()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Fragment.\+disconnect\+Peripheral (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Device disconnection function. 
+
+\label{group__devices_fragment_gad9d73c25e0e71fd5a5ffa88ffa815989} 
+\index{DevicesFragment class@{DevicesFragment class}!isConnected@{isConnected}}
+\index{isConnected@{isConnected}!DevicesFragment class@{DevicesFragment class}}
+\doxysubsubsection{isConnected()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Fragment.\+is\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to check if the device needs to be disconnected. 
+
+\label{group__devices_fragment_ga3742956484728ebc756f3e4e45ab17b3} 
+\index{DevicesFragment class@{DevicesFragment class}!onItemClick@{onItemClick}}
+\index{onItemClick@{onItemClick}!DevicesFragment class@{DevicesFragment class}}
+\doxysubsubsection{onItemClick()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Fragment.\+on\+Item\+Click (\begin{DoxyParamCaption}\item[{Scan\+Result}]{scan\+Result }\end{DoxyParamCaption})}
+
+
+
+Function for processing a click on the line in the device list. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em scan\+Result} & -\/ Data about the device found \\
+\hline
+\end{DoxyParams}
+
+
+Implements \textbf{ com.\+smoke.\+detection.\+Devices\+Adapter.\+Callback} \doxyref{}{p.}{interfacecom_1_1smoke_1_1detection_1_1_devices_adapter_1_1_callback_a9ff36009e89778ea8962b4c960b231bb}.
+
+\label{group__devices_fragment_gaeadbf3135b1d3b154b2936ef877a5e97} 
+\index{DevicesFragment class@{DevicesFragment class}!onPause@{onPause}}
+\index{onPause@{onPause}!DevicesFragment class@{DevicesFragment class}}
+\doxysubsubsection{onPause()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Fragment.\+on\+Pause (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Called when the Fragment is no longer resumed. 
+
+\label{group__devices_fragment_ga56703c87294691d6c604a35f5920fece} 
+\index{DevicesFragment class@{DevicesFragment class}!onResume@{onResume}}
+\index{onResume@{onResume}!DevicesFragment class@{DevicesFragment class}}
+\doxysubsubsection{onResume()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Fragment.\+on\+Resume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Called when the fragment is visible to the user and actively running. 
+
+\label{group__devices_fragment_gaa92ff522fa123fc6b5a3083f0fcdecf6} 
+\index{DevicesFragment class@{DevicesFragment class}!onViewCreated@{onViewCreated}}
+\index{onViewCreated@{onViewCreated}!DevicesFragment class@{DevicesFragment class}}
+\doxysubsubsection{onViewCreated()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Fragment.\+on\+View\+Created (\begin{DoxyParamCaption}\item[{@Non\+Null View}]{view,  }\item[{@Nullable Bundle}]{saved\+Instance\+State }\end{DoxyParamCaption})}
+
+
+
+Method works when the fragment is created. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em view} & – The View returned by on\+Create\+View(\+Layout\+Inflater, View\+Group, Bundle) \\
+\hline
+\mbox{\texttt{ in}}  & {\em saved\+Instance\+State} & – If non-\/null, this fragment is being re-\/constructed from a previous saved state as given here. \\
+\hline
+\end{DoxyParams}
+\label{group__devices_fragment_ga147a0774a0d4486f89ee20023b6b7474} 
+\index{DevicesFragment class@{DevicesFragment class}!scanDevices@{scanDevices}}
+\index{scanDevices@{scanDevices}!DevicesFragment class@{DevicesFragment class}}
+\doxysubsubsection{scanDevices()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Devices\+Fragment.\+scan\+Devices (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+New device search function. 
+

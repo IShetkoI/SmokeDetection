@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding" xml:lang="en-US">
+<title>com.smoke.detection.databinding.ActivityMainBinding Class Reference</title>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary></indexterm>
+<para>Inheritance diagram for com.smoke.detection.databinding.ActivityMainBinding:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>RelativeLayout <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1a03e2e5976bf4b666d9920bd06b64ef2c">getRoot</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding">ActivityMainBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1a89c6fa3728c6cacb2b99048cc6f81a80">inflate</link> (@NonNull LayoutInflater inflater)</para>
+</listitem>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding">ActivityMainBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1aea278cf55c95fadff61d25df3f3b44f6">inflate</link> (@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)</para>
+</listitem>
+            <listitem><para>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding">ActivityMainBinding</link> <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1aea9022ea5798665a0ac3b37f2742fcf9">bind</link> (@NonNull View rootView)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final NeumorphImageButton <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1aac901f1771c8b69f9a56fd2945e51e70">bHome</link></para>
+</listitem>
+            <listitem><para>final NeumorphImageButton <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1af06b690978c740558c6488fb4f611054">bSearch</link></para>
+</listitem>
+            <listitem><para>final FrameLayout <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1a2a147ca123651f7383d7c74c0c14692c">containerFragment</link></para>
+</listitem>
+            <listitem><para>final NeumorphCardView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1a277b23cd46e583fb471c8e4b0d846821">cvConnectionStatus</link></para>
+</listitem>
+            <listitem><para>final LinearLayout <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1abae2c9db28d9d5051c8d03da25e3ea0d">lLogo</link></para>
+</listitem>
+            <listitem><para>final NeumorphImageView <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1ab18d28521099e753b93584f8f54e7d2f">logs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1aea9022ea5798665a0ac3b37f2742fcf9"/><section>
+    <title>bind()</title>
+<indexterm><primary>bind</primary><secondary>com.smoke.detection.databinding.ActivityMainBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary><secondary>bind</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding">ActivityMainBinding</link> com.smoke.detection.databinding.ActivityMainBinding.bind (@NonNull View rootView)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1a03e2e5976bf4b666d9920bd06b64ef2c"/><section>
+    <title>getRoot()</title>
+<indexterm><primary>getRoot</primary><secondary>com.smoke.detection.databinding.ActivityMainBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary><secondary>getRoot</secondary></indexterm>
+<para><computeroutput>RelativeLayout com.smoke.detection.databinding.ActivityMainBinding.getRoot ( )</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1a89c6fa3728c6cacb2b99048cc6f81a80"/><section>
+    <title>inflate()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>inflate</primary><secondary>com.smoke.detection.databinding.ActivityMainBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary><secondary>inflate</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding">ActivityMainBinding</link> com.smoke.detection.databinding.ActivityMainBinding.inflate (@NonNull LayoutInflater inflater)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1aea278cf55c95fadff61d25df3f3b44f6"/><section>
+    <title>inflate()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>inflate</primary><secondary>com.smoke.detection.databinding.ActivityMainBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary><secondary>inflate</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding">ActivityMainBinding</link> com.smoke.detection.databinding.ActivityMainBinding.inflate (@NonNull LayoutInflater inflater, @Nullable ViewGroup parent, boolean attachToParent)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1aac901f1771c8b69f9a56fd2945e51e70"/><section>
+    <title>bHome</title>
+<indexterm><primary>bHome</primary><secondary>com.smoke.detection.databinding.ActivityMainBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary><secondary>bHome</secondary></indexterm>
+<para><computeroutput>final NeumorphImageButton com.smoke.detection.databinding.ActivityMainBinding.bHome</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1af06b690978c740558c6488fb4f611054"/><section>
+    <title>bSearch</title>
+<indexterm><primary>bSearch</primary><secondary>com.smoke.detection.databinding.ActivityMainBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary><secondary>bSearch</secondary></indexterm>
+<para><computeroutput>final NeumorphImageButton com.smoke.detection.databinding.ActivityMainBinding.bSearch</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1a2a147ca123651f7383d7c74c0c14692c"/><section>
+    <title>containerFragment</title>
+<indexterm><primary>containerFragment</primary><secondary>com.smoke.detection.databinding.ActivityMainBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary><secondary>containerFragment</secondary></indexterm>
+<para><computeroutput>final FrameLayout com.smoke.detection.databinding.ActivityMainBinding.containerFragment</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1a277b23cd46e583fb471c8e4b0d846821"/><section>
+    <title>cvConnectionStatus</title>
+<indexterm><primary>cvConnectionStatus</primary><secondary>com.smoke.detection.databinding.ActivityMainBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary><secondary>cvConnectionStatus</secondary></indexterm>
+<para><computeroutput>final NeumorphCardView com.smoke.detection.databinding.ActivityMainBinding.cvConnectionStatus</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1abae2c9db28d9d5051c8d03da25e3ea0d"/><section>
+    <title>lLogo</title>
+<indexterm><primary>lLogo</primary><secondary>com.smoke.detection.databinding.ActivityMainBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary><secondary>lLogo</secondary></indexterm>
+<para><computeroutput>final LinearLayout com.smoke.detection.databinding.ActivityMainBinding.lLogo</computeroutput></para></section>
+<anchor xml:id="_classcom_1_1smoke_1_1detection_1_1databinding_1_1_activity_main_binding_1ab18d28521099e753b93584f8f54e7d2f"/><section>
+    <title>logs</title>
+<indexterm><primary>logs</primary><secondary>com.smoke.detection.databinding.ActivityMainBinding</secondary></indexterm>
+<indexterm><primary>com.smoke.detection.databinding.ActivityMainBinding</primary><secondary>logs</secondary></indexterm>
+<para><computeroutput>final NeumorphImageView com.smoke.detection.databinding.ActivityMainBinding.logs</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+app/build/generated/data_binding_base_class_source_out/debug/out/com/smoke/detection/databinding/<link linkend="__activity_main_binding_8java">ActivityMainBinding.java</link></section>
+</section>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1smoke_1_1detection" xml:lang="en-US">
+<title>Package com.smoke.detection</title>
+<indexterm><primary>com.smoke.detection</primary></indexterm>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespacecom_1_1smoke_1_1detection_1_1databinding">databinding</link></para>
+</listitem>
+            <listitem><para>package <link linkend="_namespacecom_1_1smoke_1_1detection_1_1test">test</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">BaseFragment</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1_build_config">BuildConfig</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1c_bluetooth_device">cBluetoothDevice</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1_control_fragment">ControlFragment</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1_devices_adapter">DevicesAdapter</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1_devices_fragment">DevicesFragment</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1_example_instrumented_test">ExampleInstrumentedTest</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1_example_unit_test">ExampleUnitTest</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1smoke_1_1detection_1_1_main_activity">MainActivity</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Automatically generated file. DO NOT MODIFY </para>
+</section>
+</section>

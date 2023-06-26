@@ -1,0 +1,188 @@
+\doxysection{Main\+Activity class}
+\label{group__main_activity}\index{MainActivity class@{MainActivity class}}
+
+
+Main activity class.  
+
+
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ com.\+smoke.\+detection.\+Main\+Activity.\+on\+Create} (@Nullable Bundle saved\+Instance\+State)
+\begin{DoxyCompactList}\small\item\em The method is called when the activity is first created. \end{DoxyCompactList}\item 
+Shared\+Preferences \textbf{ com.\+smoke.\+detection.\+Main\+Activity.\+get\+Editor} ()
+\begin{DoxyCompactList}\small\item\em Function to access storage from fragments. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Main\+Activity.\+set\+Hash\+Map} (Hash\+Map$<$ String, Scan\+Result $>$ items)
+\begin{DoxyCompactList}\small\item\em Function for saving the list of found devices. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Main\+Activity.\+set\+Saved\+Device} (Scan\+Result item)
+\begin{DoxyCompactList}\small\item\em Function for saving the data of a connected device. \end{DoxyCompactList}\item 
+Hash\+Map$<$ String, Scan\+Result $>$ \textbf{ com.\+smoke.\+detection.\+Main\+Activity.\+get\+Hash\+Map} ()
+\begin{DoxyCompactList}\small\item\em Function for getting the list of found devices. \end{DoxyCompactList}\item 
+static Scan\+Result \textbf{ com.\+smoke.\+detection.\+Main\+Activity.\+get\+Saved\+Device} ()
+\begin{DoxyCompactList}\small\item\em Function for retrieving data from a connected device. \end{DoxyCompactList}\item 
+static void \textbf{ com.\+smoke.\+detection.\+Main\+Activity.\+set\+To\+Disconnect} (Boolean flag)
+\begin{DoxyCompactList}\small\item\em Function to save the status on the device disconnection. \end{DoxyCompactList}\item 
+static Boolean \textbf{ com.\+smoke.\+detection.\+Main\+Activity.\+get\+To\+Disconnect} ()
+\begin{DoxyCompactList}\small\item\em Function for receiving status to disconnect the device. \end{DoxyCompactList}\item 
+void \textbf{ com.\+smoke.\+detection.\+Main\+Activity.\+set\+Is\+Connected} (Boolean flag)
+\begin{DoxyCompactList}\small\item\em Function for saving the connection status of the device. \end{DoxyCompactList}\item 
+Boolean \textbf{ com.\+smoke.\+detection.\+Main\+Activity.\+get\+Is\+Connected} ()
+\begin{DoxyCompactList}\small\item\em Function to get the connection status of the device. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main activity class. 
+
+
+
+\doxysubsection{Function Documentation}
+\label{group__main_activity_ga47595a2a460aac3807bd0dbc29d15fdc} 
+\index{MainActivity class@{MainActivity class}!getEditor@{getEditor}}
+\index{getEditor@{getEditor}!MainActivity class@{MainActivity class}}
+\doxysubsubsection{getEditor()}
+{\footnotesize\ttfamily Shared\+Preferences com.\+smoke.\+detection.\+Main\+Activity.\+get\+Editor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to access storage from fragments. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em editor} & -\/ Storage on the smartphone \\
+\hline
+\end{DoxyParams}
+\label{group__main_activity_ga3022c5de722b3be2fb31af750706c791} 
+\index{MainActivity class@{MainActivity class}!getHashMap@{getHashMap}}
+\index{getHashMap@{getHashMap}!MainActivity class@{MainActivity class}}
+\doxysubsubsection{getHashMap()}
+{\footnotesize\ttfamily Hash\+Map$<$ String, Scan\+Result $>$ com.\+smoke.\+detection.\+Main\+Activity.\+get\+Hash\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function for getting the list of found devices. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em devices} & -\/ List of found devices \\
+\hline
+\end{DoxyParams}
+\label{group__main_activity_ga1ea8ab9e8bf2e46f64be87c9f0604a5b} 
+\index{MainActivity class@{MainActivity class}!getIsConnected@{getIsConnected}}
+\index{getIsConnected@{getIsConnected}!MainActivity class@{MainActivity class}}
+\doxysubsubsection{getIsConnected()}
+{\footnotesize\ttfamily Boolean com.\+smoke.\+detection.\+Main\+Activity.\+get\+Is\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function to get the connection status of the device. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em is\+Connected} & -\/ Whether the device is connected or not \\
+\hline
+\end{DoxyParams}
+\label{group__main_activity_ga5c2601eb9da86bd3f07323ce59818ee4} 
+\index{MainActivity class@{MainActivity class}!getSavedDevice@{getSavedDevice}}
+\index{getSavedDevice@{getSavedDevice}!MainActivity class@{MainActivity class}}
+\doxysubsubsection{getSavedDevice()}
+{\footnotesize\ttfamily static Scan\+Result com.\+smoke.\+detection.\+Main\+Activity.\+get\+Saved\+Device (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Function for retrieving data from a connected device. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em device} & -\/ Connected device data \\
+\hline
+\end{DoxyParams}
+\label{group__main_activity_gaa7e273cf314b238b61ca96b1d110d4ba} 
+\index{MainActivity class@{MainActivity class}!getToDisconnect@{getToDisconnect}}
+\index{getToDisconnect@{getToDisconnect}!MainActivity class@{MainActivity class}}
+\doxysubsubsection{getToDisconnect()}
+{\footnotesize\ttfamily static Boolean com.\+smoke.\+detection.\+Main\+Activity.\+get\+To\+Disconnect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Function for receiving status to disconnect the device. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em to\+Disconnect} & -\/ Are we going to disconnect the device or not \\
+\hline
+\end{DoxyParams}
+\label{group__main_activity_ga8d66ce016833a7de0e2bb4b5be2eec2f} 
+\index{MainActivity class@{MainActivity class}!onCreate@{onCreate}}
+\index{onCreate@{onCreate}!MainActivity class@{MainActivity class}}
+\doxysubsubsection{onCreate()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Main\+Activity.\+on\+Create (\begin{DoxyParamCaption}\item[{@Nullable Bundle}]{saved\+Instance\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The method is called when the activity is first created. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em saved\+Instance\+State} & -\/ A mapping from String keys to various Parcelable values. \\
+\hline
+\end{DoxyParams}
+\label{group__main_activity_ga22e267c0c24462541e2a4c69c32b0c7a} 
+\index{MainActivity class@{MainActivity class}!setHashMap@{setHashMap}}
+\index{setHashMap@{setHashMap}!MainActivity class@{MainActivity class}}
+\doxysubsubsection{setHashMap()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Main\+Activity.\+set\+Hash\+Map (\begin{DoxyParamCaption}\item[{Hash\+Map$<$ String, Scan\+Result $>$}]{items }\end{DoxyParamCaption})}
+
+
+
+Function for saving the list of found devices. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em items} & -\/ List of found devices \\
+\hline
+\end{DoxyParams}
+\label{group__main_activity_ga4927d963580988aeac37d37691180524} 
+\index{MainActivity class@{MainActivity class}!setIsConnected@{setIsConnected}}
+\index{setIsConnected@{setIsConnected}!MainActivity class@{MainActivity class}}
+\doxysubsubsection{setIsConnected()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Main\+Activity.\+set\+Is\+Connected (\begin{DoxyParamCaption}\item[{Boolean}]{flag }\end{DoxyParamCaption})}
+
+
+
+Function for saving the connection status of the device. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em flag} & -\/ Whether the device is connected or not \\
+\hline
+\end{DoxyParams}
+\label{group__main_activity_ga248554716942cbf23ef49b82c3ce0dff} 
+\index{MainActivity class@{MainActivity class}!setSavedDevice@{setSavedDevice}}
+\index{setSavedDevice@{setSavedDevice}!MainActivity class@{MainActivity class}}
+\doxysubsubsection{setSavedDevice()}
+{\footnotesize\ttfamily void com.\+smoke.\+detection.\+Main\+Activity.\+set\+Saved\+Device (\begin{DoxyParamCaption}\item[{Scan\+Result}]{item }\end{DoxyParamCaption})}
+
+
+
+Function for saving the data of a connected device. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em item} & -\/ Connected device data \\
+\hline
+\end{DoxyParams}
+\label{group__main_activity_ga3e992bcbbea215e98615781fa0145211} 
+\index{MainActivity class@{MainActivity class}!setToDisconnect@{setToDisconnect}}
+\index{setToDisconnect@{setToDisconnect}!MainActivity class@{MainActivity class}}
+\doxysubsubsection{setToDisconnect()}
+{\footnotesize\ttfamily static void com.\+smoke.\+detection.\+Main\+Activity.\+set\+To\+Disconnect (\begin{DoxyParamCaption}\item[{Boolean}]{flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Function to save the status on the device disconnection. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em flag} & -\/ Are we going to disconnect the device or not \\
+\hline
+\end{DoxyParams}
